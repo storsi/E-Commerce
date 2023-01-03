@@ -1,9 +1,15 @@
-const jsoni = fetch('/E-Commerce/prodotti.json').then(results => results.json())
+const jsoni = fetch('/account.json').then(results => results.json())
 
-const prodottiConsigliati = document.getElementById("prodottiConsigliati")
+
 const prodotto = document.getElementById("prodotto")
-const ricompraProdotti = document.getElementById("prodottiRicompra")
+
+//Sezione consiglia
 const testoConsiglia = document.getElementById("testoConsigli")
+const prodottiConsigliati = document.getElementById("prodottiConsigliati")
+
+//Sezione ricompra
+const testoRicompra = document.getElementById("testoRicompra")
+const prodottiRicompra = document.getElementById("prodottiRicompra")
 
 
 
@@ -38,7 +44,10 @@ function fillHomePage(arrayConsigli, arrayRiacquista) {
         }
     } else {
         testoConsiglia.style.display = "none"
+        prodottiConsigliati.style.display = "none"
     }
+
+    console.log(arrayConsigli.length)
 
     //Si occupa della sezione "Prodotti da Riacquistare"
     if(arrayRiacquista.length > 0) {
@@ -62,6 +71,8 @@ function fillHomePage(arrayConsigli, arrayRiacquista) {
         }
     } else {
         testoRicompra.style.display = "none"
+        prodottiRicompra.style.display = "none"
+
     }
 
     //Si occupa della sezione "Top 3 Prodotti"

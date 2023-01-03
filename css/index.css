@@ -36,9 +36,8 @@ a {
     width: 15vw;
     height: 40vh;
     border-radius: 20px;
-    box-shadow: 1vh 1vh rgba(65, 65, 65, 0.7);
     display: inline-block;
-    margin: 2%;
+    margin: 1%;
     transition: .2s;
 }
 
@@ -46,7 +45,6 @@ a {
     width: 16vw;
     height: 42vh;
     margin: 0;
-    box-shadow: 2vh 2vh rgba(65, 65, 65, 0.7);
 }
 
 /*

@@ -1,23 +1,25 @@
-const jsoni = fetch('/E-Commerce/prodotti.json').then(results => results.json())
-
 const testoRicompra = document.getElementById("testoRicompra")
 const tuttiIProdotti = document.getElementById("prodotti")
 
-jsoni.then(data => {
+const linkCSV = '/prodotti.csv'
 
-    fillAllProducts(data.Prodotti)
-    //Top vendite prodotti
-})
+var data
+Papa.parse(linkCSV, {
+    download: true,
+    complete: function(row) {
+        data = row.data
+        fillAllProducts()
+    }
+});
 
-function fillAllProducts(arrayProdotti) {
+function fillAllProducts() {
 
-    for(i = 0; i < arrayProdotti.length; i++) {
-        var stringa = arrayProdotti[i].split(",")
+    for(i = 1; i < data[0].length; i++) {
         tuttiIProdotti.innerHTML += `
             <div id = "prodotto">
-                <img src = "${stringa[1]}" alt = "Immagine ${stringa[0]}" style="width: 80%">
-                <p class = "titoloProdotto">${stringa[0]}</p>
-                <p class = "costoProdotto">${stringa[2]}€</p>
+                <img src = "${data[i][2]}" alt = "Immagine ${data[i][0]}" style="width: 80%">
+                <p class = "titoloProdotto">${data[i][0]}</p>
+                <p class = "costoProdotto">${data[i][1]}€</p>
             </div>
         `
     }
