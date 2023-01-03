@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/E-Commerce/css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <img src="/E-Commerce/img/logo.png" alt="LOGO" id = "logo">
+        <nav>
+            <ul class = "menuTitolo">
+                <li><a href = "home.html">Home</a></li>
+                <li><a href = "prodotti.html">Prodotti</a></li>
+                <li><a href = "#">Chi Siamo</a></li>
+                <li><a href = "#">Carrello</a></li>
+            </ul>
+        </nav>
+
+        
+    </header>
+
+    <div id="filtro">
+        <input type="text" id="ricerca"><input type="button" value="Cerca">
+        <h3>Filtri:</h3>
+        <input type="checkbox" name="alimentare" id="">
+        <label for="alimentare">Alimentare</label><br>
+        <input type="checkbox" name="alimentare" id="">
+        <label for="alimentare">Alimentare</label><br>
+        <input type="checkbox" name="alimentare" id="">
+        <label for="alimentare">Alimentare</label>
+        <h3>Fascia di prezzo:</h3>
+        <input type="radio" name="fascia1" id="">
+        <label for="fascia1">&lt20</label><br>
+        <input type="radio" name="fascia2" id="">
+        <label for="fascia2">20-50</label><br>
+    </div>
+
+    <div id="prodotti"></div>
+
+    <script src="/E-Commerce/js/prodotti.js"></script>
+</body>
+</html>
