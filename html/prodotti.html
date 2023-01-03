@@ -26,12 +26,12 @@
     <div id="filtro">
         <input type="text" id="ricerca"><input type="button" value="Cerca">
         <h3>Filtri:</h3>
-        <input type="checkbox" name="alimentare" id="">
+        <input type="checkbox" name="informatica" id="cb_informatica" onchange="ridisponiProdotti()">
+        <label for="informatica">Informatica</label><br>
+        <input type="checkbox" name="alimentare" id="cb_alimentare" onchange="ridisponiProdotti()">
         <label for="alimentare">Alimentare</label><br>
-        <input type="checkbox" name="alimentare" id="">
-        <label for="alimentare">Alimentare</label><br>
-        <input type="checkbox" name="alimentare" id="">
-        <label for="alimentare">Alimentare</label>
+        <input type="checkbox" name="cartoleria" id="cb_cartoleria" onchange="ridisponiProdotti()">
+        <label for="cartoleria">Cartoleria</label>
         <h3>Fascia di prezzo:</h3>
         <input type="radio" name="fascia1" id="">
         <label for="fascia1">&lt20</label><br>

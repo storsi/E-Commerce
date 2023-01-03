@@ -33,7 +33,7 @@ a {
 
 #prodotto {
     border: 2px solid black;
-    width: 15vw;
+    width: 17vw;
     height: 40vh;
     border-radius: 20px;
     display: inline-block;
@@ -42,7 +42,7 @@ a {
 }
 
 #prodotto:hover {
-    width: 16vw;
+    width: 18vw;
     height: 42vh;
     margin: 0;
 }
@@ -87,13 +87,14 @@ a {
     border: 1px solid;
     height: 72vh;
     float: left;
-    width: 18%;
+    width: 15%;
     border-radius: 20px;
+    text-align: center;
 }
 
 #prodotti {
     border: 1px solid;
-    width: 80%;
+    width: 83%;
     float: right;
     text-align: center;
     height: 72vh;
