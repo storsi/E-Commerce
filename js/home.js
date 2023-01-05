@@ -1,79 +1,60 @@
 const jsoni = fetch('/account.json').then(results => results.json())
 
 
-const prodotto = document.getElementById("prodotto")
+const sliderSconti = document.getElementById("sliderSconti")
 
-//Sezione consiglia
-const testoConsiglia = document.getElementById("testoConsigli")
-const prodottiConsigliati = document.getElementById("prodottiConsigliati")
+const imgTop3 = document.getElementsByClassName("imgTop3")
+const top3 = document.getElementsByClassName("top3")
+const top3Text = document.getElementsByClassName("top3Text")
 
-//Sezione ricompra
-const testoRicompra = document.getElementById("testoRicompra")
-const prodottiRicompra = document.getElementById("prodottiRicompra")
+const account = document.getElementById("imgCarrello")
+const carrello = document.getElementById("imgCarrello")
+
+var indiceSlide = 0
+mostraSlide(indiceSlide)
 
 
-
+top3[0].addEventListener("click", function() {
+    top3Text[0].style.display = "none"
+    imgTop3[0].style.display = "block"
+})
+top3[1].addEventListener("click", function() {
+    top3Text[1].style.display = "none"
+    imgTop3[1].style.display = "block"
+})
+top3[2].addEventListener("click", function() {
+    top3Text[2].style.display = "none"
+    imgTop3[2].style.display = "block"
+})
 
 jsoni.then(data => {
 
-    fillHomePage(data.Consigli, data.Riacquista)
+    //fillHomePage(data.Consigli, data.Riacquista)
     //Top vendite prodotti
 })
 
-function fillHomePage(arrayConsigli, arrayRiacquista) {
+function slideSuccessiva(movimento) {
+    mostraSlide(indiceSlide += movimento)
+}
 
-    //Si occupa della sezione "Prodotti Consigliati"
-    if(arrayConsigli.length > 0) {
-        testoConsiglia.style.display = "block"
-        var numeroComponenti
-        if(arrayConsigli.length > 4) {
-            numeroComponenti = 4
-        } else {
-            numeroComponenti = arrayConsigli.length
-        }
+function selezionaSlide(indexSlide) {
+    mostraSlide(indiceSlide = indexSlide)
+}
 
-        for( i = 0; i < numeroComponenti; i++) {
-            var stringa = arrayConsigli[i].split(",")
-            prodottiConsigliati.innerHTML += `
-            <div id = "prodotto">
-                <img src = "${stringa[1]}" alt = "Immagine ${stringa[0]}" style="width: 80%">
-                <p class = "titoloProdotto">${stringa[0]}</p>
-                <p class = "costoProdotto">${stringa[2]}€</p>
-            </div>
-            `
-        }
-    } else {
-        testoConsiglia.style.display = "none"
-        prodottiConsigliati.style.display = "none"
+function mostraSlide(index) {
+
+    let slides = document.getElementsByClassName("slide")
+    let counterSlide = document.getElementsByClassName("counter-slide")
+
+    if(indiceSlide > slides.length - 1) indiceSlide = 0
+    if(indiceSlide < 0) indiceSlide = slides.length - 1
+
+    for(i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"
+        counterSlide[i].style.display = "none"
     }
 
-    console.log(arrayConsigli.length)
-
-    //Si occupa della sezione "Prodotti da Riacquistare"
-    if(arrayRiacquista.length > 0) {
-        testoRicompra.style.display = "block"
-        var numeroComponenti
-        if(arrayRiacquista.length > 4) {
-            numeroComponenti = 4
-        } else {
-            numeroComponenti = arrayRiacquista.length
-        }
-
-        for(i = 0; i < numeroComponenti; i++) {
-            var stringa = arrayRiacquista[i].split(",")
-            ricompraProdotti.innerHTML += `
-                <div id = "prodotto">
-                    <img src = "${stringa[1]}" alt = "Immagine ${stringa[0]}" style="width: 80%">
-                    <p class = "titoloProdotto">${stringa[0]}</p>
-                    <p class = "costoProdotto">${stringa[2]}€</p>
-                </div>
-                `
-        }
-    } else {
-        testoRicompra.style.display = "none"
-        prodottiRicompra.style.display = "none"
-
-    }
-
-    //Si occupa della sezione "Top 3 Prodotti"
+    slides[indiceSlide].style.display = "block"
+    counterSlide[indiceSlide].style.display = "block"
+    counterSlide[indiceSlide].innerText = (indiceSlide + 1) + " / " + slides.length
 }

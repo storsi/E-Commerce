@@ -8,38 +8,26 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <header>
-        <img src="/img/logo.png" alt="LOGO" id = "logo">
-        <nav>
-            <ul class = "menuTitolo">
-                <li><a href = "home.html">Home</a></li>
-                <li><a href = "prodotti.html">Prodotti</a></li>
-                <li><a href = "#">Chi Siamo</a></li>
-                <li><a href = "#">Carrello</a></li>
-            </ul>
-        </nav>
 
-        
+    <header>
+        <h1 id="titolo">SPRgames</h1>
+        <p id="menuSin">
+            <a href="home.html" id="menu">Home</a> /
+            <a href="#" id="menu"><U>Shop</U></a> /
+            <a href="#" id="menu">About Us</a>
+        </p>
+        <p id="icone">
+            <a href="carrello.html">
+            <img src="https://www.pngkey.com/png/full/231-2317482_white-shopping-cart-png-download-buy-icon-white.png" id="imgCarrello">
+            </a>
+            <a href="">
+            <img src="https://icon-library.com/images/profile-icon-white/profile-icon-white-3.jpg" id="imgAccount">
+            </a>
+        </p>
     </header>
 
-    <div id="filtro">
-        <input type="text" id="ricerca"><input type="button" value="Cerca">
-        <h3>Filtri:</h3>
-        <input type="checkbox" name="informatica" id="cb_informatica" onchange="ridisponiProdotti()">
-        <label for="informatica">Informatica</label><br>
-        <input type="checkbox" name="alimentare" id="cb_alimentare" onchange="ridisponiProdotti()">
-        <label for="alimentare">Alimentare</label><br>
-        <input type="checkbox" name="cartoleria" id="cb_cartoleria" onchange="ridisponiProdotti()">
-        <label for="cartoleria">Cartoleria</label>
-        <h3>Fascia di prezzo:</h3>
-        <input type="radio" name="fascia1" id="">
-        <label for="fascia1">&lt20</label><br>
-        <input type="radio" name="fascia2" id="">
-        <label for="fascia2">20-50</label><br>
-    </div>
-
-    <div id="prodotti"></div>
+    <div id="menuSecondario" style="text-align: center;"></div>
+    <div id="contenitoreProdotti"></div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js" integrity="sha512-SGWgwwRA8xZgEoKiex3UubkSkV1zSE1BS6O4pXcaxcNtUlQsOmOmhVnDwIvqGRfEmuz83tIGL13cXMZn6upPyg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="/js/prodotti.js"></script>

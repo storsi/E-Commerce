@@ -1,6 +1,5 @@
-nome_prodotto,costo_prodotto,immagine_prodotto,categoria,acquistiTot,media_valutazione,numero_valutazioni
-Computer,1200,https://5.imimg.com/data5/UE/DG/MY-42978329/assembled-desktop-computer-250x250.jpg,Informatica,0,0,0
-Cartoleria,1200,https://5.imimg.com/data5/UE/DG/MY-42978329/assembled-desktop-computer-250x250.jpg,Cartoleria,0,0,0
-Alimentare,1200,https://5.imimg.com/data5/UE/DG/MY-42978329/assembled-desktop-computer-250x250.jpg,Alimentare,0,0,0
-Computer,1200,https://5.imimg.com/data5/UE/DG/MY-42978329/assembled-desktop-computer-250x250.jpg,a,0,0,0
-Computer,1200,https://5.imimg.com/data5/UE/DG/MY-42978329/assembled-desktop-computer-250x250.jpg,a,0,0,0
+numero_prodotto,nome_prodotto,costo_prodotto,immagine_prodotto,categoria,acquistiTot,media_valutazione,numero_valutazioni
+1,Tom Clancy's Rainbow six: siege - AE, 14.97,https://m.media-amazon.com/images/I/61ejGvtJirL._AC_SX385_.jpg, XBOX, 0, 0, 0
+2,Tom Clancy's Rainbow six: siege, 14.97,https://static-it.gamestop.it/images/products/262269/3max.jpg, PS4, 0, 0, 0
+3,Tom Clancy's Rainbow six: siege - DE, 24.97,https://static-it.gamestop.it/images/products/302220/3max.jpg, PS5, 0, 0, 0
+4,Tom Clancy's Rainbow six: siege, 9.97,https://images.everyeye.it/img-cover/rainbow-six-siege-v10-27992.jpg, PC, 0, 0, 0

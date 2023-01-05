@@ -1,15 +1,21 @@
 body {
-    background-color: white;
+    background-color: rgb(32, 32, 32);
     padding-left: 2%;
     padding-right: 2%;
+    color: whitesmoke;
+    user-select: none;
 }
 
-header {
+/*header {
     background-color: rgb(0, 163, 0);
     height: 20vh;
     border-radius: 20px;
     box-shadow: 1vh 1vh rgb(0, 94, 0);
     margin-bottom: 5vh;
+}*/
+
+header {
+    margin-top: 1%;
 }
 
 nav {
@@ -27,77 +33,199 @@ li {
 }
 
 a {
-    color: white;
+    color: whitesmoke;
     text-decoration: none;
-}
-
-#prodotto {
-    border: 2px solid black;
-    width: 17vw;
-    height: 40vh;
-    border-radius: 20px;
-    display: inline-block;
-    margin: 1%;
-    transition: .2s;
-}
-
-#prodotto:hover {
-    width: 18vw;
-    height: 42vh;
-    margin: 0;
 }
 
 /*
 *CSS PER LA PAGINA "HOME"
 */
 
-#logo {
-    width: 15vh;
-    border-radius: 50px;
-    margin-left: 6vh;
-    margin-top: 2.5vh;
+#titolo {
+    display: inline;
+    font-size: 5vh;
+}
+
+#menu {
+    padding-left: .5%;
+    padding-right: .5%;
+}
+
+#menuSin {
+    display: inline;
+    margin-left: 5%;
+    font-size: 2.5vh;
+}
+
+#icone {
+    display: inline;
+}
+
+
+
+#imgCarrello {
+    width: 3%;
+    position: absolute;
+    right: 3%;
+    cursor: pointer;
+}
+
+#imgAccount {
+    width: 3%;
+    position: absolute;
+    right: 7%;
+    cursor: pointer;
+}
+
+/*Slider Sconti*/
+
+.titoloSezione {
+    margin-top: 10%;
+    font-size: 5vh;
+    text-align: center;
+}
+
+.sliderContainer {
+    position: relative;
+    margin: auto;
+    margin-top: 9%;
+    width: 80%;
+    height: 60vh;
+    display: block;
+}
+
+.slide {
+    width: 80%;
+    margin: auto;
+    display: none;
+}
+
+.immagineSlide {
+    width: 100%;
+    border-radius: 20px;
+    border: 5px solid white;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 1%;
+    color: white;
+    font-size: 10vh;
+    transition: .3s ease;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    color: rgb(180, 180, 180);
+}
+
+.counter-slide {
+    color: white;
+    font-size: 3vh;
+    position: absolute;
+    top: 0;
+    padding: 1%;
+}
+
+#maggiormenteVenduti {
+    margin: auto;
+    width: 90%;
+    height: 30vh;
+    text-align: center;
+}
+
+.top3 {
+    width: 25%;
+    height: 22.7vh;
+    margin: .5vh 1.7% 0 0;
+    border: 1px solid white;
     display: inline-block;
+    border-radius: 20px;
+    background-color: white;
+    position: relative;
+}
+
+/*Overlay*/
+
+.imgTop3 {
+    width: 100%;
+    border-radius: 20px;
+    display: none;
+}
+
+.top3Text {
+    font-size: 10vh;
+    color: black;
+    position: absolute;
+    left: 45%;
+}
+
+/*CSS PER LA PAGINA "SHOP"*/
+
+#contenitoreProdotti {
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+}
+
+.scelta {
+    background-color: white;
+    width: 25%;
+    height: 30vh;
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-top: 5%;
+    display: inline-table;
+    cursor: pointer;
+    position: relative;
+}
+
+.sceltaText {
+    color: black;
+    text-align: center;
+    display: table-cell;
     vertical-align: middle;
 }
 
-#testoConsigli, #testoRicompra {
-    display: block;
-    margin-top: 10vh;
-    font-size: 3vh;
-    text-align: center;
+.scelta:hover {
+    background-color: rgb(220, 220, 220);
 }
 
-#prodottiConsigliati, #prodottiRicompra {
-    text-align: center;
-    height: 50vh;
-}
-
-
-
-.titoloProdotto {
-    font-size: 2vh;
-}
-
-/*
-*CSS PER LA PAGINA "PRODOTTI"
-*/
-
-
-#filtro {
-    border: 1px solid;
-    height: 72vh;
-    float: left;
+#prodotto {
     width: 15%;
+    height: 50vh;
     border-radius: 20px;
+    border: 3px solid white;
+    background-color: white;
     text-align: center;
+    color: black;
+    position: relative;
+    display: inline-block;
+    margin: 2%;
 }
 
-#prodotti {
-    border: 1px solid;
-    width: 83%;
-    float: right;
-    text-align: center;
-    height: 72vh;
-    overflow-y: auto;
+#prodottoImg {
+    margin-top: 2%;
+    width: 90%;
+}
+
+#prodottoBottone {
+    position: absolute;
+    bottom: 2%;
+    left: 25%;
+    height: 3vh;
+    background-color: white;
+    border: 2px solid;
     border-radius: 20px;
+}
+
+#prodottoBottone:hover {
+    background-color: rgb(220, 220, 220);
 }
