@@ -4,7 +4,7 @@ const menuSecondario = document.getElementById("menuSecondario")
 let scelta = document.getElementsByClassName("scelta")
 
 var data
-var carrello = JSON.parse(window.localstorage.getItem("carrello"))
+var carrello = JSON.parse(window.localStorage.getItem("carrello"))
 
 start()
 sceltaPulsanti(scelta)
