@@ -4,7 +4,15 @@ const menuSecondario = document.getElementById("menuSecondario")
 let scelta = document.getElementsByClassName("scelta")
 
 var data
-var carrello = JSON.parse(window.localStorage.getItem("carrello"))
+var carrello
+var indiceCarrello
+
+if(localStorage.getItem("carrello") != null)
+    carrello = JSON.parse(localStorage.getItem("carrello"))
+else
+    carrello = []
+
+indiceCarrello = carrello.length
 
 start()
 sceltaPulsanti(scelta)
@@ -74,7 +82,7 @@ function inserisciProdotti(tipologia) {
                     <img src="${data[i][3]}" alt="Immagine ${data[i][1]}" id="prodottoImg">
                     <h2 id="prodottoText">${data[i][1]}</h2>
                     <h3 id="prodottoText"">${data[i][2]}€</h1>
-                    <button id = "prodottoBottone" onclick="aggiungiCarrello(${data[i][0]}))">Aggiungi al carrello</button>
+                    <button id = "prodottoBottone" onclick="aggiungiAlCarrello(${data[i][0]})">Aggiungi al carrello</button>
                 </div>
             `
         }
@@ -82,5 +90,24 @@ function inserisciProdotti(tipologia) {
 }
 
 function aggiungiAlCarrello(numeroProdotto) {
+    var fatto = false
 
+    for(i = 0; i < carrello.length; i++) {
+        const split = carrello[i].split('x')
+        if(split[0] == numeroProdotto) {
+            console.log(split[1])
+            carrello[i] = split[0] + "x" + (parseInt(split[1]) + 1)
+            fatto = true
+            break
+        }
+    }
+
+    if(!fatto) {
+        carrello[indiceCarrello] = numeroProdotto + "x" + "1"
+        indiceCarrello++
+    }
+
+    localStorage.setItem("carrello", JSON.stringify(carrello))
+
+    console.log(carrello)
 }

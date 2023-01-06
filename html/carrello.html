@@ -13,17 +13,27 @@
         <h1 id="titolo">SPRgames</h1>
         <p id="menuSin">
             <a href="home.html" id="menu">Home</a> /
-            <a href="prodotti.html" id="menu"><U>Shop</U></a> /
+            <a href="prodotti.html" id="menu">Shop</a> /
             <a href="#" id="menu">About Us</a>
         </p>
         <p id="icone">
             <a href="carrello.html">
             <img src="https://www.pngkey.com/png/full/231-2317482_white-shopping-cart-png-download-buy-icon-white.png" id="imgCarrello">
             </a>
+            <a href="account.html">
             <img src="https://icon-library.com/images/profile-icon-white/profile-icon-white-3.jpg" id="imgAccount">
+            </a>
         </p>
     </header>
 
-    <script src ="carrello.js"></script>
+    <div id="prodottiCarrello"></div>
+    <div id="senzaProdotti">NON CI SONO PRODOTTI NEL CARRELLO.<br><a href="prodotti.html"><U>AGGIUNGINE</U></a></div>
+    <div id="divBottoneConferma">
+        <button id="bottoneConferma">CONFERMA ORDINE</button>
+    </div>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js" integrity="sha512-SGWgwwRA8xZgEoKiex3UubkSkV1zSE1BS6O4pXcaxcNtUlQsOmOmhVnDwIvqGRfEmuz83tIGL13cXMZn6upPyg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src ="/js/carrello.js"></script>
 </body>
 </html>

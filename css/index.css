@@ -44,6 +44,7 @@ a {
 #titolo {
     display: inline;
     font-size: 5vh;
+    color: rgb(117, 175, 255);
 }
 
 #menu {
@@ -162,7 +163,7 @@ a {
 
 .top3Text {
     font-size: 10vh;
-    color: black;
+    color: rgb(117, 175, 255);
     position: absolute;
     left: 45%;
 }
@@ -188,7 +189,7 @@ a {
 }
 
 .sceltaText {
-    color: black;
+    color: rgb(63, 143, 255);
     text-align: center;
     display: table-cell;
     vertical-align: middle;
@@ -211,12 +212,12 @@ a {
     margin: 2%;
 }
 
-#prodottoImg {
+#prodottoImg, #carrelloImg {
     margin-top: 2%;
     width: 90%;
 }
 
-#prodottoBottone {
+#prodottoBottone, #eliminaDalCarrello, #aggiungiAlCarrello {
     position: absolute;
     bottom: 2%;
     left: 25%;
@@ -228,4 +229,184 @@ a {
 
 #prodottoBottone:hover {
     background-color: rgb(220, 220, 220);
+}
+
+/*CSS PER LA PAGINA "CARRELLO"*/
+
+#prodottiCarrello {
+    width: 100%;
+    margin-top: 5%;
+}
+
+#eliminaDalCarrello {
+    width: 49.5%;
+    left: 0;
+    display: inline-block;
+}
+
+#aggiungiAlCarrello {
+    width: 49.5%;
+    left: 50%;
+}
+
+#eliminaDalCarrello:hover {
+    background-color: rgb(255, 73, 73);
+}
+
+#aggiungiAlCarrello:hover {
+    background-color: rgb(73, 255, 73);
+}
+
+#divBottoneConferma {
+    width: 100%;
+    height: 8vh;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+#bottoneConferma {
+    text-align: center;
+    background-color: rgb(117, 175, 255);
+    color: black;
+    width: 90%;
+    height: 5vh;
+    margin: auto;
+}
+
+#senzaProdotti {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+/*CSS PER LA PAGINA "ACCOUNT"*/
+
+#creaAccount, #accediAccount {
+    width: 100%;
+    text-align: center;
+}
+
+#accediAccount {
+    display: none;
+}
+
+#creaAccount > input {
+    margin-bottom: 1%;
+    width: 20%;
+    height: 5vh;
+}
+
+#accediAccount > input {
+    margin-bottom: 1%;
+    width: 20%;
+    height: 5vh;
+}
+
+#titoloAccount {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 8%;
+}
+
+#sottoTitolo {
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 0;
+}
+
+#link1, #link2 {
+    cursor: pointer;
+    color: rgb(117, 175, 255);
+}
+
+#link {
+    color: rgb(117, 175, 255);
+}
+
+#creaAccountBtn1, #creaAccountBtn2 {
+    margin-top: 3%;
+    width: 15%;
+    height: 5vh;
+    border-radius: 20px;
+}
+
+#errore {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    color: rgb(197, 0, 0)
+}
+
+#tuttiIDati {
+    width: 100%;
+    margin-top: 5%;
+    display: none;
+}
+
+#infoPersonali, #infoPagamento {
+    margin-top: 5%;
+    background-color: white;
+    color: black;
+    width: 30%;
+    height: 50vh;
+    border-radius: 20px;
+    position: relative;
+    float: left;
+}
+
+#infoPersonali > h2 {
+    margin-left: 7%;
+    padding: 4.5%;
+}
+
+#infoPersonali > button {
+    position: absolute;
+    bottom: 2%;
+    left: 30%;
+    color: black;
+    background-color: white;
+    height: 4vh;
+    border-radius: 20px;
+    width: 40%;
+}
+
+#infoPersonali > button:hover {
+    background-color: rgb(220, 220, 220);
+}
+
+#infoPersonali > h2 > input {
+    height: 4vh;
+    margin-left: 3%;
+    width: 50%;
+}
+#infoPagamento > h2 {
+    margin-left: 7%;
+    padding: 4.5%;
+}
+
+#infoPagamento > button {
+    position: absolute;
+    bottom: 2%;
+    left: 30%;
+    color: black;
+    background-color: white;
+    height: 4vh;
+    border-radius: 20px;
+    width: 40%;
+}
+
+#infoPagamento > button:hover {
+    background-color: rgb(220, 220, 220);
+}
+
+#infoPagamento > h2 > input {
+    height: 4vh;
+    margin-left: 3%;
+    width: 30%;
 }

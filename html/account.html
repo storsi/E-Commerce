@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <h1 id="titolo">SPRgames</h1>
+        <p id="menuSin">
+            <a href="home.html" id="menu">Home</a> /
+            <a href="prodotti.html" id="menu">Shop</a> /
+            <a href="#" id="menu">About Us</a>
+        </p>
+        <p id="icone">
+            <a href="carrello.html">
+            <img src="https://www.pngkey.com/png/full/231-2317482_white-shopping-cart-png-download-buy-icon-white.png" id="imgCarrello">
+            </a>
+            <a href="account.html">
+            <img src="https://icon-library.com/images/profile-icon-white/profile-icon-white-3.jpg" id="imgAccount">
+            </a>
+        </p>
+    </header>
+
+    <h1 id="titoloAccount">CREA UN ACCOUNT</h1><br>
+
+    <div id="creaAccount">
+        <h3 id="sottoTitolo">SE NE POSSIEDI GIÀ UNO <span id="link1">ACCEDI</span></h3>
+        <input type="text" name="" id="nome" placeholder="Nome"><br>
+        <input type="text" name="" id="cognome" placeholder="Cognome"><br>
+        <input type="email" name="" id="email" placeholder="E-Mail"><br>
+        <input type="password" name="" id="password" placeholder="Password"><br>
+        <input type="password" name="" id="confermaPassword" placeholder="Conferma password"><br>
+
+        <button id="creaAccountBtn1">CREA ACCOUNT</button>
+    </div>
+
+    <div id="accediAccount">
+        <h3 id="sottoTitolo">SE NE POSSIEDI GIÀ UNO <span id="link2">CREALO</span></h3>
+        <input type="email" name="" id="emailAccedi" placeholder="E-Mail"><br>
+        <input type="password" name="" id="passwordAccedi" placeholder="Password"><br>
+
+        <button id="creaAccountBtn2">ACCEDI</button>
+    </div>
+
+    <div id="tuttiIDati">
+        <h1 id="saluto"></h1>
+        <div id="infoPersonali"></div>
+        <div id="infoPagamento" style="margin-left: 20%"></div>
+    </div>
+
+    <div id="errore"><h3></h3></div>
+
+    <script src="/js/account.js"></script>
+</body>
+</html>
