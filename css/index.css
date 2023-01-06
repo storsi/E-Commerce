@@ -18,6 +18,10 @@ header {
     margin-top: 1%;
 }
 
+button {
+    cursor: pointer;
+}
+
 nav {
     width: 35%;
     height: 5vh;
@@ -84,12 +88,12 @@ a {
     margin-top: 10%;
     font-size: 5vh;
     text-align: center;
+    color: rgb(117, 175, 255);
 }
 
 .sliderContainer {
     position: relative;
     margin: auto;
-    margin-top: 9%;
     width: 80%;
     height: 60vh;
     display: block;
@@ -146,7 +150,7 @@ a {
     width: 25%;
     height: 22.7vh;
     margin: .5vh 1.7% 0 0;
-    border: 1px solid white;
+    border: 2px solid white;
     display: inline-block;
     border-radius: 20px;
     background-color: white;
@@ -163,7 +167,7 @@ a {
 
 .top3Text {
     font-size: 10vh;
-    color: rgb(117, 175, 255);
+    color: black;
     position: absolute;
     left: 45%;
 }
@@ -409,4 +413,17 @@ a {
     height: 4vh;
     margin-left: 3%;
     width: 30%;
+}
+
+#logout {
+    width: 10%;
+    height: 5vh;
+    position: absolute;
+    bottom: 1%;
+    right: 2%;
+    cursor: pointer;
+}
+
+#logout:hover {
+    background-color: rgb(255, 73, 73);
 }

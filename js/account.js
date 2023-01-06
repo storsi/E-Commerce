@@ -58,9 +58,13 @@ linkCambio2.addEventListener("click", function() {
 
 creaAccountBtn2.addEventListener("click", function() {
     for(i = 0; i < accounts.length; i++) {
-        if(accounts[i][3] == emailAccedi.value && accounts[i][4] == passwordAccedi.value) {
-            accountSelezionato = i
-            sessionStorage.setItem("accountSelezionato", JSON.stringify(accountSelezionato))
+        if(accounts[i][3] == emailAccedi.value) {
+            if(accounts[i][4] == passwordAccedi.value) {
+                accountSelezionato = i
+                sessionStorage.setItem("accountSelezionato", JSON.stringify(accountSelezionato))
+            } else {
+                errore.innerText = "PASSWORD ERRATA"
+            }
         }
     }
 
@@ -80,7 +84,7 @@ creaAccountBtn1.addEventListener("click", function() {
         var emailUguale = false
 
         for(i = 0; i < accounts.length; i++) {
-            if(accounts[i][3] == email) {
+            if(accounts[i][3] == email.value) {
                 emailUguale = true
             }
         }
@@ -133,6 +137,7 @@ function stampaPrivato(stringa) {
 }
 
 function stampaAccount() {
+    errore.style.display = "none"
     titolo.style.display = "none"
     accediAccount.style.display = "none"
     creaAccount.style.display = "none"
@@ -147,12 +152,15 @@ function stampaAccount() {
         <button onclick="modificaInfoPersonali()">MODIFICA INFORMAZIONI</button>
     `
 
-        infoPagamento.innerHTML = `
-            <h2>NUMERO CARTA: ${stampaPrivato(accounts[accountSelezionato][5])}</h2>
-            <h2>DATA DI SCADENZA: ${stampaPrivato(accounts[accountSelezionato][6])}</h2>
-            <h2>CODICE DI SICUREZZA: ${stampaPrivato(accounts[accountSelezionato][7])}</h2>
-            <button onclick="modificaInfoPagamento()">MODIFICA INFORMAZIONI</button>
-        `
+    infoPagamento.innerHTML = `
+        <h2>NUMERO CARTA: ${stampaPrivato(accounts[accountSelezionato][5])}</h2>
+        <h2>DATA DI SCADENZA: ${stampaPrivato(accounts[accountSelezionato][6])}</h2>
+        <h2>CODICE DI SICUREZZA: ${stampaPrivato(accounts[accountSelezionato][7])}</h2>
+        <button onclick="modificaInfoPagamento()">MODIFICA INFORMAZIONI</button>
+    `
+
+    tuttiIDati.innerHTML += "<button id='logout' onclick='logout()'>LOGOUT</button>" 
+
 }
 
 function modificaInfoPersonali() {
@@ -198,4 +206,12 @@ function modificaIPFatta(tipo) {
     localStorage.setItem("accounts", JSON.stringify(accounts))
 
     stampaAccount()
+}
+
+function logout() {
+    tuttiIDati.style.display = "none"
+    creaAccount.style.display = "block"
+    titolo.style.display = "block"
+
+    sessionStorage.setItem("accountSelezionato", "-1")
 }
