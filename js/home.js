@@ -4,7 +4,7 @@ const jsoni = fetch('/account.json').then(results => results.json())
 const sliderSconti = document.getElementById("sliderSconti")
 
 const imgTop3 = document.getElementsByClassName("imgTop3")
-const top3 = document.getElementsByClassName("top3")
+const giocoInSaldo = document.getElementsByClassName("giocoInSaldo")
 const top3Text = document.getElementsByClassName("top3Text")
 
 const account = document.getElementById("imgCarrello")
@@ -14,15 +14,15 @@ var indiceSlide = 0
 mostraSlide(indiceSlide)
 
 
-top3[0].addEventListener("click", function() {
+giocoInSaldo[0].addEventListener("click", function() {
     top3Text[0].style.display = "none"
     imgTop3[0].style.display = "block"
 })
-top3[1].addEventListener("click", function() {
+giocoInSaldo[1].addEventListener("click", function() {
     top3Text[1].style.display = "none"
     imgTop3[1].style.display = "block"
 })
-top3[2].addEventListener("click", function() {
+giocoInSaldo[2].addEventListener("click", function() {
     top3Text[2].style.display = "none"
     imgTop3[2].style.display = "block"
 })

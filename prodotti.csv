@@ -1,5 +1,196 @@
-numero_prodotto,nome_prodotto,costo_prodotto,immagine_prodotto,categoria,acquistiTot,media_valutazione,numero_valutazioni
-1,Tom Clancy's Rainbow six: siege - AE, 14.97,https://m.media-amazon.com/images/I/61ejGvtJirL._AC_SX385_.jpg, XBOX, 0, 0, 0
-2,Tom Clancy's Rainbow six: siege, 14.97,https://static-it.gamestop.it/images/products/262269/3max.jpg, PS4, 0, 0, 0
-3,Tom Clancy's Rainbow six: siege - DE, 24.97,https://static-it.gamestop.it/images/products/302220/3max.jpg, PS5, 0, 0, 0
-4,Tom Clancy's Rainbow six: siege, 9.97,https://images.everyeye.it/img-cover/rainbow-six-siege-v10-27992.jpg, PC, 0, 0, 0
+numero_prodotto,nome_prodotto,costo_prodotto,immagine_prodotto,categoria,acquistiTot
+1,Tom Clancy's Rainbow six: siege - AE, 14.97,https://m.media-amazon.com/images/I/61ejGvtJirL._AC_SX385_.jpg, XBOX, 0,
+2,Tom Clancy's Rainbow six: siege, 14.97,https://static-it.gamestop.it/images/products/262269/3max.jpg, PS4, 0,
+3,Tom Clancy's Rainbow six: siege - DE, 24.97,https://static-it.gamestop.it/images/products/302220/3max.jpg, PS5, 0,
+4,Tom Clancy's Rainbow six: siege, 9.97,https://images.everyeye.it/img-cover/rainbow-six-siege-v10-27992.jpg, PC, 0,
+5,60 seconds, 8.99,https://cdn1.epicgames.com/spt-assets/9b574fb62beb47c4a6e2da240201c3ec/download-60-seconds-reatomized-offer-g91je.png, PC,0
+6,Alien: Isolation, 54.99,https://static-it.gamestop.it/images/products/291733/3max.jpg, XBOX, 0
+7,The Wolf Among Us: A Telltale Games Series, 9.99,https://static-it.gamestop.it/images/products/258899/3max.jpg, XBOX, 0
+8,The Wolf Among Us: A Telltale Games Series, 19.98,https://static-it.gamestop.it/images/products/258897/3max.jpg, PS4, 0
+9,The Wolf Among Us: A Telltale Games Series, 15.69,https://static-it.gamestop.it/images/products/258894/3max.jpg, PC, 0
+10,Among Us, 3.99,https://cdn2.steamgriddb.com/file/sgdb-cdn/thumb/abaa9aa65a3f698cf1b3e51d4ffcb0f3.jpg, PC, 0
+11,Animal Crossing: New Horizons, 24.99,https://static-it.gamestop.it/images/products/306210/3max.jpg, NINSW, 0
+12,Anno 1800, 59.99,https://howlongtobeat.com/games/61650_Anno_1800.jpg, PC, 0
+13,Apex Legends, 0.00,https://upload.wikimedia.org/wikipedia/tr/8/8b/Apex_legends_kapak.jpg, PC, 0
+14,Assassin's Creed Mirage - DE, 60.98,https://static-it.gamestop.it/images/products/310758/3max.jpg, XBOX, 0
+15,Assassin's Creed Mirage - DE, 60.98,https://static-it.gamestop.it/images/products/310756/3max.jpg, PS5, 0
+16,Assassin's Creed Mirage - DE, 60.98,https://static-it.gamestop.it/images/products/310754/3max.jpg, PS4, 0
+17,Assassin's Creed Ezio Collection, 49.98,https://static-it.gamestop.it/images/products/306820/3max.jpg, NINSW, 0
+18,Assassin's Creed Mirage, 50.98,https://static-it.gamestop.it/images/products/310750/3max.jpg, PS5, 0
+19,Assassin's Creed Mirage, 50.98,https://static-it.gamestop.it/images/products/310752/3max.jpg, XBOX, 0
+20,Assassin's Creed Mirage, 50.98,https://static-it.gamestop.it/images/products/310747/3max.jpg, PS4, 0
+21,Assassin's Creed Valhalla, 24.97,https://static-it.gamestop.it/images/products/302099/3max.jpg, PS5, 0
+22,Assassin's Creed Valhalla - Gold Edition, 29.98,https://static-it.gamestop.it/images/products/299972/3max.jpg, PS5, 0
+23,Assassin's Creed Valhalla - Ultimate Edition, 39.98,https://static-it.gamestop.it/images/products/299970/3max.jpg, PS5, 0
+24, Assassin's Creed Valhalla - Drakkar Edition, 19.98,https://static-it.gamestop.it/images/products/299966/3max.jpg, PS5, 0
+25, Assassin's Creed Valhalla - Ultimate Edition, 39.98,https://static-it.gamestop.it/images/products/298517/3max.jpg, XBOX, 0
+26,Assassin's Creed Valhalla - Gold Edition, 29.98,https://static-it.gamestop.it/images/products/298515/3max.jpg, XBOX, 0
+27,Assassin's Creed Valhalla - Drakkar Edition, 49.98,https://static-it.gamestop.it/images/products/298513/3max.jpg, XBOX, 0
+28,Assassin's Creed Valhalla - Ultimate Edition, 34.98,https://static-it.gamestop.it/images/products/298511/3max.jpg, PS4, 0
+29,Assassin's Creed Valhalla - Gold Edition, 69.98,https://static-it.gamestop.it/images/products/298509/3max.jpg, PS4, 0
+30,Assassin's Creed Valhalla, 24.97,https://static-it.gamestop.it/images/products/298507/3max.jpg, PS4, 0
+31,God of War, 19.98,https://static-it.gamestop.it/images/products/271893/3max.jpg, PS4, 0
+32,Assassin's Creed® : The Rebel Collection, 39.98,https://static-it.gamestop.it/images/products/295870/3max.jpg, NINSW, 0
+33,Assassin's Creed®: Origins + Odyssey, 29.97,https://static-it.gamestop.it/images/products/295100/3max.jpg, PS4, 0
+34,Assetto Corsa Competizione - Day One Edition, 30.98,https://static-it.gamestop.it/images/products/305105/3max.jpg, XBOX, 0
+35,Assetto Corsa Competizione - Day One Edition, 32.98,https://static-it.gamestop.it/images/products/305103/3max.jpg, PS5, 0
+36,Assetto Corsa Competizione, 29.97,https://static-it.gamestop.it/images/products/298316/3max.jpg, PS4, 0
+37,Assetto Corsa, 19.97,https://static-it.gamestop.it/images/products/264671/3max.jpg, XBOX, 0
+38,Assetto Corsa, 19.97,https://static-it.gamestop.it/images/products/264669/3max.jpg, PS4, 0
+39,Assetto Corsa - Ultimate Edition, 30.98,https://static-it.gamestop.it/images/products/286439/3max.jpg, XBOX, 0
+40,Assetto Corsa - Ultimate Edition, 29.97,https://static-it.gamestop.it/images/products/286437/3max.jpg, PS4, 0
+41,Astroneer, 27.99,http://hry-nej.cz/img/p/1/3/1/9/2/13192.jpg, PC, 0
+42,Astroneer, 27.99,https://m.media-amazon.com/images/I/51i+IBw2MlL._AC_SY1000_.jpg, XBOX, 0
+43,Astroneer, 27.99,https://m.media-amazon.com/images/I/61P-yxeyU1L.jpg, PS4, 0
+44,Battlefield™ 2042, 14.97,https://static-it.gamestop.it/images/products/302620/3max.jpg, XBOX, 0
+45,Battlefield™ 2042, 19.97,https://static-it.gamestop.it/images/products/302226/3max.jpg, PS5, 0
+46,Battlefield™ 2042, 19.97,https://static-it.gamestop.it/images/products/302208/3max.jpg, PS4, 0
+47,Battlefield I, 9.97,https://static-it.gamestop.it/images/products/295957/3max.jpg, PS4, 0
+48,Battlefield V - Deluxe Edition, 14.98,https://static-it.gamestop.it/images/products/289070/3max.jpg, PS4, 0
+49,Battlefield I - Revolution, 1.00,https://static-it.gamestop.it/images/products/281651/3max.jpg, PC, 0
+50,Battlefield I - Revolution, 9.97,https://static-it.gamestop.it/images/products/281649/3max.jpg, XBOX, 0
+51,Battlefield I - Revolution, 19.97,https://static-it.gamestop.it/images/products/281647/3max.jpg, PS4, 0
+52,Battlefield I, 34.98,https://static-it.gamestop.it/images/products/270668/3max.jpg, PC, 0
+53,Battlefield I, 9.97,https://static-it.gamestop.it/images/products/270664/3max.jpg, PS4, 0
+54,Battlefield Hardline Deluxe Edition, 67.69,https://static-it.gamestop.it/images/products/258063/3max.jpg, XBOX, 0
+55,Battlefield Hardline, 24.97,https://static-it.gamestop.it/images/products/257986/3max.jpg, PS4, 0
+56,Battlefield Hardline, 15.95,https://static-it.gamestop.it/images/products/257985/3max.jpg, PC, 0
+57,Battlefield Hardline, 12.69,https://static-it.gamestop.it/images/products/257983/3max.jpg, XBOX, 0
+58,Battlefield 4 - Premium Edition, 2.98,https://static-it.gamestop.it/images/products/259552/3max.jpg, XBOX, 0
+59,Battlefield 4 Dragon's Teeth, 15.69,https://static-it.gamestop.it/images/products/258437/3max.jpg, PC, 0
+60,Battlefield 4 Naval Strike, 15.69,https://static-it.gamestop.it/images/products/257334/3max.jpg, PC, 0
+61,Battlefield 4: Second Assault, 15.69,https://static-it.gamestop.it/images/products/255535/3max.jpg, PC, 0
+62,BioShock: The Collection, 29.97,https://static-it.gamestop.it/images/products/294346/3max.jpg, NINSW, 0
+63,BioShock: The Collection, 17.98,https://static-it.gamestop.it/images/products/272295/3max.jpg, XBOX, 0
+64,BioShock: The Collection , 16.98,https://static-it.gamestop.it/images/products/272293/3max.jpg, PS4, 0
+65,BioShock Infinite, 8.69,https://static-it.gamestop.it/images/products/154635/3max.jpg, XBOX, 0
+66,Bioshock 2, 7.69,https://static-it.gamestop.it/images/products/146047/3max.jpg, XBOX, 0
+67,BioShock, 5.99,https://static-it.gamestop.it/images/products/136505/3max.jpg, XBOX, 0
+68,New Tales From the Bordelands - Deluxe Edition, 40.98,https://static-it.gamestop.it/images/products/310670/3max.jpg, PS5, 0
+69,New Tales from the Borderlands: Deluxe Edition, 49.99,https://static-it.gamestop.it/images/products/311981/3max.jpg, XBOX, 0
+70,New Tales from the Borderlands, 39.99,https://static-it.gamestop.it/images/products/311979/3max.jpg, XBOX, 0
+71,Borderlands: Legendary Collection, 29.98,https://static-it.gamestop.it/images/products/294348/3max.jpg, NINSW, 0
+72,Borderlands 3, 23.69,https://static-it.gamestop.it/images/products/293220/3max.jpg, XBOX, 0
+73,Borderlands 3, 15.98,https://static-it.gamestop.it/images/products/293217/3max.jpg, PS4, 0
+74,Tales from the Borderlands, 9.97,https://static-it.gamestop.it/images/products/269185/3max.jpg, XBOX, 0
+75,Tales from the Borderlands, 2.98,https://static-it.gamestop.it/images/products/269183/3max.jpg, PS4, 0
+76,Borderlands: The Handsome Collection, 2.98,https://static-it.gamestop.it/images/products/261273/3max.jpg, XBOX, 0
+77,Borderlands: The Pre-Sequel!, 9.97,https://static-it.gamestop.it/images/products/257573/3max.jpg, PC, 0
+78,Borderlands: The Pre-Sequel!, 1.99,https://static-it.gamestop.it/images/products/257571/3max.jpg, XBOX, 0
+79,Borderlands 2 Add-On Pack, 2.99,https://static-it.gamestop.it/images/products/252047/3max.jpg, XBOX, 0
+80,Borderlands 2, 4.99,https://static-it.gamestop.it/images/products/154687/3max.jpg, XBOX, 0
+81,Borderlands Goty, 4.99,https://static-it.gamestop.it/images/products/150556/3max.jpg, XBOX, 0
+82,Borderlands Goty, 2.98,https://static-it.gamestop.it/images/products/150552/3max.jpg, PC, 0
+83,Tales from the Borderlands, 19.99,https://static-it.gamestop.it/images/products/303141/3max.jpg, XBOX, 0
+84,Blair Witch, 14.97,https://static-it.gamestop.it/images/products/296736/3max.jpg, XBOX, 0
+85,Blair Witch, 24.97,https://static-it.gamestop.it/images/products/296734/3max.jpg, PS4, 0
+86,Brawlhalla, 0.00,https://s2.gaming-cdn.com/images/products/9463/orig-fallback-v1/brawlhalla-pc-mac-gioco-steam-cover.jpg?v=1636714256, PC, 0
+87,Call of Duty: Modern Warfare II, 74.98,https://static-it.gamestop.it/images/products/308429/3max.jpg, XBOX, 0
+88,Call of Duty: Modern Warfare II, 74.98,https://static-it.gamestop.it/images/products/308427/3max.jpg, PS5, 0
+89,Call of Duty: Modern Warfare II, 74.98,https://static-it.gamestop.it/images/products/308425/3max.jpg, PS4, 0
+90,Call of Duty Vanguard, 39.97,https://static-it.gamestop.it/images/products/305042/3max.jpg, XBOX, 0
+91,Call of Duty Vanguard, 49.97,https://static-it.gamestop.it/images/products/305038/3max.jpg, PS5, 0
+92,Call of Duty Vanguard, 39.98,https://static-it.gamestop.it/images/products/305036/3max.jpg, PS4, 0
+93,Call of Duty®: Black Ops Cold War, 44.97,https://static-it.gamestop.it/images/products/300173/3max.jpg, PS5, 0
+94,Call of Duty®: Black Ops Cold War, 29.97,https://static-it.gamestop.it/images/products/300175/3max.jpg, XBOX, 0
+95,Call of Duty®: Black Ops Cold War, 39.97,https://static-it.gamestop.it/images/products/300169/3max.jpg, PS4, 0
+96,Call Of Duty: Modern Warfare, 49.98,https://static-it.gamestop.it/images/products/294135/3max.jpg, XBOX, 0
+97,Call Of Duty: Modern Warfare, 44.98,https://static-it.gamestop.it/images/products/294129/3max.jpg, PS4, 0
+98,Call of Duty: Black Ops 4 - Pro Edition, 9.98,https://static-it.gamestop.it/images/products/288005/3max.jpg, PS4, 0
+99,Call of Duty: World War II, 19.98,https://static-it.gamestop.it/images/products/279409/3max.jpg, PS4, 0
+100,Call of Duty: World War II, 29.97,https://static-it.gamestop.it/images/products/279407/3max.jpg, XBOX, 0
+101,Call of Duty: Black Ops III - Zombies Chronicles Edition, 19.98,https://static-it.gamestop.it/images/products/282641/3max.jpg, XBOX, 0
+102,Call of Duty: Black Ops III - Zombies Chronicles Edition, 24.98,https://static-it.gamestop.it/images/products/282628/3max.jpg, PS4, 0
+103,Call of Duty: Infinite Warfare - Legacy Edition, 9.97,https://static-it.gamestop.it/images/products/270472/3max.jpg, PS4, 0
+104,Call of Duty: Infinite Warfare - Legacy Edition, 9.97,https://static-it.gamestop.it/images/products/270474/3max.jpg, XBOX, 0
+105,Call of Duty: Infinite Warfare, 17.99,https://static-it.gamestop.it/images/products/270471/3max.jpg, PC, 0
+106,Call of Duty: Infinite Warfare, 9.98,https://static-it.gamestop.it/images/products/270467/3max.jpg, PS4, 0
+107,Call of Duty: Black Ops III, 30.69,https://static-it.gamestop.it/images/products/262837/3max.jpg, PC, 0
+108,Call of Duty: Black Ops III, 29.97,https://static-it.gamestop.it/images/products/262833/3max.jpg, XBOX, 0
+109,Call of Duty: Black Ops III, 29.97,https://static-it.gamestop.it/images/products/262831/3max.jpg, PS4, 0
+110,Call of Duty Advanced Warfare, 9.95,https://static-it.gamestop.it/images/products/259570/3max.jpg, PC, 0
+111,Call of Duty Advanced Warfare, 25.98,https://static-it.gamestop.it/images/products/259568/3max.jpg, PS4, 0
+112,Call of Duty Advanced Warfare, 9.99,https://static-it.gamestop.it/images/products/259564/3max.jpg, XBOX, 0
+113,Call of Duty Ghosts, 19.98,https://static-it.gamestop.it/images/products/253296/3max.jpg, PS4, 0
+114,Call of Duty Ghosts, 4.98,https://static-it.gamestop.it/images/products/253122/3max.jpg, XBOX, 0
+115,Call of Duty Ghosts, 12.99,https://static-it.gamestop.it/images/products/252774/3max.jpg, PC, 0
+116,Call of Duty: Modern Warfare 3, 7.99,https://static-it.gamestop.it/images/products/152402/3max.jpg, XBOX, 0
+117,Call of Duty: Black Ops, 3.99,https://static-it.gamestop.it/images/products/148820/3max.jpg, XBOX, 0
+118,Call of Duty: Black Ops, 9.95,https://static-it.gamestop.it/images/products/148824/3max.jpg, PC, 0
+119,Call of Duty: World at War, 4.98,https://static-it.gamestop.it/images/products/142267/3max.jpg, XBOX, 0
+120,Call of Duty 4: Modern Warfare, 2.99,https://static-it.gamestop.it/images/products/136414/3max.jpg, XBOX, 0
+121,Chernobylite, 20.97,https://static-it.gamestop.it/images/products/307295/3max.jpg, PS5, 0
+122,Chernobylite, 20.97,https://static-it.gamestop.it/images/products/304754/3max.jpg, PS4, 0
+123,Poison Control - Contaminated Edition, 19.98,https://static-it.gamestop.it/images/products/300688/3max.jpg, NINSW, 0
+124,Poison Control, 29.97,https://static-it.gamestop.it/images/products/300685/3max.jpg, PS4, 0
+125,Control - Ultimate Edition, 30.69,https://static-it.gamestop.it/images/products/302155/3max.jpg, PS5, 0
+126,Control - Ultimate Edition, 29.97,https://static-it.gamestop.it/images/products/302157/3max.jpg, XBOX, 0
+127,Control - Ultimate Edition, 29.97,https://static-it.gamestop.it/images/products/300208/3max.jpg, PS4, 0
+128,Control - Futurepak Edition, 19.97,https://static-it.gamestop.it/images/products/292738/3max.jpg, PS4, 0
+129,Control - Futurepak Edition, 52.69,https://static-it.gamestop.it/images/products/292730/3max.jpg, XBOX, 0
+130,Control, 9.98,https://static-it.gamestop.it/images/products/290770/3max.jpg, XBOX, 0
+131,Control, 19.97,https://static-it.gamestop.it/images/products/290768/3max.jpg, PS4, 0
+132,Core Keeper, 12.99,https://cdn-products.eneba.com/resized-products/vaTQTBn67s0CHy8y9fAjXpU_w2vLfldwnIdJapZ2CP4_350x200_1x-0.png, PC, 0
+133,Counter-Strike: Global Offensive, 0.00,https://cdn.windowsreport.com/wp-content/uploads/2020/06/CSGO-packet-loss-1200x1200.jpg, PC, 0
+134,Crash Bandicoot™ 4: It’s About Time, 29.98,https://static-it.gamestop.it/images/products/303449/3max.jpg, NINSW, 0
+135,Crash Bandicoot™ 4: It’s About Time, 34.98,https://static-it.gamestop.it/images/products/298644/3max.jpg, PS4, 0
+136,Crash Bandicoot™ 4: It’s About Time, 59.97,https://static-it.gamestop.it/images/products/294314/3max.jpg, XBOX, 0
+137,Crash Team Racing Nitro-Fueled - Nitros Oxide Edition, 50.69,https://static-it.gamestop.it/images/products/293290/3max.jpg, NINSW, 0
+138,Crash Team Racing Nitro-Fueled, 29.98,https://static-it.gamestop.it/images/products/291462/3max.jpg, PS4, 0
+139,Crash Team Racing Nitro-Fueled, 34.98,https://static-it.gamestop.it/images/products/291460/3max.jpg, XBOX, 0
+140,Crash Bandicoot N. Sane Trilogy, 29.98,https://static-it.gamestop.it/images/products/286785/3max.jpg, XBOX, 0
+141,Crash Bandicoot N. Sane Trilogy, 29.98,https://static-it.gamestop.it/images/products/286783/3max.jpg, NINSW, 0
+142,Crash Bandicoot N. Sane Trilogy, 34.69,https://static-it.gamestop.it/images/products/277097/3max.jpg, PS4, 0
+143,Cyberpunk 2077 - Day One Edition, 29.97,https://static-it.gamestop.it/images/products/292740/3max.jpg, PS4, 0
+144,Cyberpunk 2077 - Day One Edition, 29.97,https://static-it.gamestop.it/images/products/292748/3max.jpg, XBOX, 0
+145,Cyberpunk 2077, 69.99,https://static-it.gamestop.it/images/products/302025/3max.jpg, XBOX, 0
+146,Cyberpunk 2077 - Day One Edition, 49.98,https://static-it.gamestop.it/images/products/294396/3max.jpg, PC, 0
+147,Dark Souls III + The Witcher 3 : Wild Hunt, 29.97,https://static-it.gamestop.it/images/products/290283/3max.jpg, XBOX, 0
+148,Dark Souls III + The Witcher 3 : Wild Hunt, 29.98,https://static-it.gamestop.it/images/products/290281/3max.jpg, PS4, 0
+149,Dark Souls III - The Fire Fades Edition, 40.95,https://static-it.gamestop.it/images/products/278047/3max.jpg, PC, 0
+150,Dark Souls III - The Fire Fades Edition, 39.98,https://static-it.gamestop.it/images/products/278044/3max.jpg, XBOX, 0
+151,Dark Souls III - The Fire Fades Edition, 29.98,https://static-it.gamestop.it/images/products/278042/3max.jpg, PS4, 0
+152,Dark Souls III, 4.98,https://static-it.gamestop.it/images/products/271190/3max.jpg, PS4, 0
+153,Dark Souls III, 24.95,https://static-it.gamestop.it/images/products/268347/3max.jpg, PC, 0
+154,Dark Souls III, 29.97,https://static-it.gamestop.it/images/products/268345/3max.jpg, XBOX, 0
+155,Dark Souls III, 29.97,https://static-it.gamestop.it/images/products/268343/3max.jpg, PS4, 0
+156,Dark Souls 2: Scholar of the First Sin, 19.98,https://static-it.gamestop.it/images/products/260546/3max.jpg, XBOX, 0
+157,Dark Souls 2: Scholar of the First Sin, 29.97,https://static-it.gamestop.it/images/products/260544/3max.jpg, PS4, 0
+158,Dark Souls 2 Black Armour Edition, 38.69,https://static-it.gamestop.it/images/products/254264/3max.jpg, Pc, 0
+159,Dark Souls 2, 16.69,https://static-it.gamestop.it/images/products/255283/3max.jpg, XBOX, 0
+160,DARK SOULS III - Deluxe Edition, 94.99,https://static-it.gamestop.it/images/products/291803/3max.jpg, XBOX, 0
+161,Dark Souls, 19.99,https://static-it.gamestop.it/images/products/291626/3max.jpg, XBOX, 0
+162,Dark Souls III - The Ringed City, 14.99,https://static-it.gamestop.it/images/products/278974/3max.jpg, XBOX, 0
+163,Days Gone, 39.99,https://static-it.gamestop.it/images/products/279229/3max.jpg, PS4, 0
+164,Seven: The Days Long Gone, 16.69,https://static-it.gamestop.it/images/products/280455/3max.jpg, PC, 0
+165,Dead By Daylight - Nightmare Edition, 9.98,https://static-it.gamestop.it/images/products/296746/3max.jpg, XBOX, 0
+166,Dead By Daylight - Nightmare Edition, 30.69,https://static-it.gamestop.it/images/products/296744/3max.jpg, Ps4, 0
+167,Dead by Daylight Definitive Edition, 29.97,https://static-it.gamestop.it/images/products/294587/3max.jpg, NINSW, 0
+168,Dead by Daylight, 1.98,https://static-it.gamestop.it/images/products/279477/3max.jpg, XBOX, 0
+169,Dead by Daylight, 17.98,https://static-it.gamestop.it/images/products/279475/3max.jpg, PS4, 0
+170,Death Stranding: Director's Cut, 49.98,https://static-it.gamestop.it/images/products/304495/3max.jpg, PS5, 0
+171,Death Stranding - Day One Edition, 70.99,https://static-it.gamestop.it/images/products/298147/3max.jpg, PC, 0
+172,Death Stranding, 34.98,https://static-it.gamestop.it/images/products/291394/3max.jpg, PS4, 0
+173,Detroit Become Human, 12.99,https://static-it.gamestop.it/images/products/297430/3max.jpg, PC, 0
+174,Detroit: Become Human, 34.98,https://static-it.gamestop.it/images/products/286596/3max.jpg, PS4, 0
+175,Destiny 2, 3.98,https://static-it.gamestop.it/images/products/278859/3max.jpg, PS4, 0
+176,Destiny 2, 0.00,https://image.api.playstation.com/vulcan/ap/rnd/202212/0618/DaFLP35bru4ZxtDV8o2VGTkM.png, PC, 0
+177,DOOM, 29.97,https://static-it.gamestop.it/images/products/310735/3max.jpg, NINSW, 0
+178,DOOM Slayers Collection, 39.98,https://static-it.gamestop.it/images/products/304835/3max.jpg, NINSW, 0
+179,DOOM 3: VR Edition, 24.97,https://static-it.gamestop.it/images/products/303024/3max.jpg, PS4, 0
+180,DOOM Eternal, 14.97,https://static-it.gamestop.it/images/products/288161/3max.jpg, PC, 0
+181,DOOM Eternal, 19.98,https://static-it.gamestop.it/images/products/287963/3max.jpg, XBOX, 0
+182,DOOM Eternal, 19.98,https://static-it.gamestop.it/images/products/287941/3max.jpg, PS4, 0
+183,DOOM Eternal - Deluxe Edition, 74.69,https://static-it.gamestop.it/images/products/294280/3max.jpg, XBOX, 0
+184,DOOM Eternal - Deluxe Edition, 74.69,https://static-it.gamestop.it/images/products/294203/3max.jpg, PS4, 0
+185,DOOM Eternal - Deluxe Edition, 67.69,https://static-it.gamestop.it/images/products/294191/3max.jpg, PC, 0
+186,Doom Slayers Collection, 24.97,https://static-it.gamestop.it/images/products/297321/3max.jpg, XBOX, 0
+187,Doom Slayers Collection, 24.98,https://static-it.gamestop.it/images/products/297319/3max.jpg, PS4, 0
+188,Doom VFR, 9.97,https://static-it.gamestop.it/images/products/280725/3max.jpg, PC, 0
+189,Doom VFR, 24.97,https://static-it.gamestop.it/images/products/280618/3max.jpg, PS4, 0
+190,DOOM, 49.97,https://static-it.gamestop.it/images/products/283286/3max.jpg, NINSW, 0
+191,DOOM, 14.97,https://static-it.gamestop.it/images/products/270184/3max.jpg, PS4, 0
+192,DOOM - UAC Edition, 20.95,https://static-it.gamestop.it/images/products/268033/3max.jpg, PC, 0
+193,DOOM - UAC Edition, 7.98,https://static-it.gamestop.it/images/products/268031/3max.jpg, XBOX, 0
+194,DOOM - UAC Edition, 14.98,https://static-it.gamestop.it/images/products/268029/3max.jpg, PS4, 0
+195,DOOM, 14.95,https://static-it.gamestop.it/images/products/268352/3max.jpg, PC, 0

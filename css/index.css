@@ -139,14 +139,14 @@ a {
     padding: 1%;
 }
 
-#maggiormenteVenduti {
+#saldi {
     margin: auto;
     width: 90%;
     height: 30vh;
     text-align: center;
 }
 
-.top3 {
+.giocoInSaldo {
     width: 25%;
     height: 22.7vh;
     margin: .5vh 1.7% 0 0;
@@ -205,7 +205,7 @@ a {
 
 #prodotto {
     width: 15%;
-    height: 50vh;
+    height: 55vh;
     border-radius: 20px;
     border: 3px solid white;
     background-color: white;
