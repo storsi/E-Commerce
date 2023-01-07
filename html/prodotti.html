@@ -14,7 +14,7 @@
         <p id="menuSin">
             <a href="home.html" id="menu">Home</a> /
             <a href="#" id="menu"><U>Shop</U></a> /
-            <a href="#" id="menu">About Us</a>
+            <a href="aboutUs.html" id="menu">About Us</a>
         </p>
         <p id="icone">
             <a href="carrello.html">
@@ -27,7 +27,22 @@
     </header>
 
     <div id="menuSecondario" style="text-align: center;"></div>
+    <div id="divRicerca">
+        <input type="text" id="ricerca" placeholder="Ricerca nella sezione">
+        <button id="cerca" onclick="annullaRicerche()">TUTTO</button>
+        <button id="cerca" onclick="inserisciProdotti()">CERCA</button>
+    </div>
     <div id="contenitoreProdotti"></div>
+    <div id="nessunProdottoTrovato"></div>
+
+    <div id="bloccaTutto">
+        <div id="avvertenza">
+            <h1>NON POSSIEDI UN ACCOUNT O NON SEI REGISTRATO</h1>
+            <h3>NON PUOI QUINDI INSERIRE PRODOTTI NEL CARRELLO</h3>
+            <button id="creaneUno">CREA UN ACCOUNT / REGISTRATI</button>
+            <button id="lasciaStare">LASCIA STARE</button>
+        </div>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js" integrity="sha512-SGWgwwRA8xZgEoKiex3UubkSkV1zSE1BS6O4pXcaxcNtUlQsOmOmhVnDwIvqGRfEmuz83tIGL13cXMZn6upPyg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="/js/prodotti.js"></script>

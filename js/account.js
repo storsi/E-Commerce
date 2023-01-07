@@ -57,11 +57,14 @@ linkCambio2.addEventListener("click", function() {
 })
 
 creaAccountBtn2.addEventListener("click", function() {
+    var fatto = false
+
     for(i = 0; i < accounts.length; i++) {
         if(accounts[i][3] == emailAccedi.value) {
             if(accounts[i][4] == passwordAccedi.value) {
                 accountSelezionato = i
                 sessionStorage.setItem("accountSelezionato", JSON.stringify(accountSelezionato))
+                fatto = true
             } else {
                 errore.innerText = "PASSWORD ERRATA"
             }
@@ -71,6 +74,7 @@ creaAccountBtn2.addEventListener("click", function() {
     if(accountSelezionato == -1) {
         errore.innerText = "ACCOUNT INESISTENTE"
     } else {
+        console.log(accountSelezionato)
         stampaAccount()
     }
 })
@@ -97,6 +101,7 @@ creaAccountBtn1.addEventListener("click", function() {
             account[5] = "..."
             account[6] = "..."
             account[7] = "..."
+            account[8] = []
 
             accountSelezionato = accounts.length
             sessionStorage.setItem("accountSelezionato", JSON.stringify(accountSelezionato))
@@ -142,7 +147,7 @@ function stampaAccount() {
     accediAccount.style.display = "none"
     creaAccount.style.display = "none"
     tuttiIDati.style.display = "block"
-    console.log(accountSelezionato)
+
     saluto.innerHTML = "GENTILE CLIENTE,&nbsp<span id='link'> " + accounts[accountSelezionato][1].toUpperCase() + "&nbsp  " + accounts[accountSelezionato][2].toUpperCase() + "</span>"
     infoPersonali.innerHTML = `
         <h2>NOME: ${accounts[accountSelezionato][1]}</h2>
