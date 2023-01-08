@@ -15,6 +15,20 @@ const contenutoPrz = document.getElementById("contenutoPrz")
 const esport = document.getElementById("esport")
 const titoloEsp = document.getElementById("titoloEsp")
 const contenutoEsp = document.getElementById("contenutoEsp")
+const menuATendina = document.getElementById("menuATendina")
+const contenutoMenuATendina = document.getElementById("contenutoMenuATendina")
+
+var contenutoMenuATendinaBool = false
+
+menuATendina.addEventListener("click", function() {
+    if(contenutoMenuATendinaBool) {
+        contenutoMenuATendina.style.display = "none"
+    } else {
+        contenutoMenuATendina.style.display = "block"
+    }
+
+    contenutoMenuATendinaBool = !contenutoMenuATendinaBool
+})
 
 
 jsoni.then(data => {

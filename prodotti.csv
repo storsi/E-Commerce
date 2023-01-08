@@ -220,60 +220,98 @@ numero_prodotto,nome_prodotto,costo_prodotto,immagine_prodotto,categoria,acquist
 219,Escape From Tarkov, 31.24,https://gocdkeys.it/images/games/escape-from-tarkov-left-behind-edition-pc-cd-key.jpg, PC, 0
 220,Fall Guys, 0.00,https://cdn1.epicgames.com/offer/50118b7f954e450f8823df1614b24e80/EGS_FallGuys_Mediatonic_S2_1200x1600-2e38803ef15ce35fbafd7875b46a0cc9, PC, 0
 221,Fall Guys, 0.00,https://cdn1.epicgames.com/offer/50118b7f954e450f8823df1614b24e80/EGS_FallGuys_Mediatonic_S2_1200x1600-2e38803ef15ce35fbafd7875b46a0cc9, PS4, 0
-221,Fall Guys, 0.00,https://cdn1.epicgames.com/offer/50118b7f954e450f8823df1614b24e80/EGS_FallGuys_Mediatonic_S2_1200x1600-2e38803ef15ce35fbafd7875b46a0cc9, PS5, 0
-222,Fall Guys, 0.00,https://cdn1.epicgames.com/offer/50118b7f954e450f8823df1614b24e80/EGS_FallGuys_Mediatonic_S2_1200x1600-2e38803ef15ce35fbafd7875b46a0cc9, XBOX, 0
-223,Fall Guys, 0.00,https://cdn1.epicgames.com/offer/50118b7f954e450f8823df1614b24e80/EGS_FallGuys_Mediatonic_S2_1200x1600-2e38803ef15ce35fbafd7875b46a0cc9, NINSW, 0
-224,Fallout 76 - Wastelanders, 9.97,https://static-it.gamestop.it/images/products/297912/3max.jpg, XBOX, 0
-225,Fallout 76 - Wastelanders, 9.97,https://static-it.gamestop.it/images/products/297910/3max.jpg, PS4, 0
-226,Fallout 76 - Wastelanders, 9.97,https://static-it.gamestop.it/images/products/297909/3max.jpg, PC, 0
-227,Fallout 76, 9.97,https://static-it.gamestop.it/images/products/288164/3max.jpg, PC, 0
-228,Fallout 76, 9.97,https://static-it.gamestop.it/images/products/288013/3max.jpg, PS4, 0
-229,Fallout 76, 2.98,https://static-it.gamestop.it/images/products/287997/3max.jpg, XBOX, 0
-230,Fallout 4 VR, 9.97,https://static-it.gamestop.it/images/products/280724/3max.jpg, PC, 0
-231,Fallout 4 - Game Of The Year Edition, 9.97,https://static-it.gamestop.it/images/products/282482/3max.jpg, PC, 0
-232,Fallout 4 - Game Of The Year Edition, 19.98,https://static-it.gamestop.it/images/products/282480/3max.jpg, XBOX, 0
-233,Fallout 4 - Game Of The Year Edition, 24.97,https://static-it.gamestop.it/images/products/282478/3max.jpg, PS4, 0
-234,Fallout 4, 9.98,https://static-it.gamestop.it/images/products/263338/3max.jpg, XBOX, 0
-235,Fallout 4, 14.97,https://static-it.gamestop.it/images/products/263336/3max.jpg, PS4, 0
-236,Fallout 4, 9.97,https://static-it.gamestop.it/images/products/263335/3max.jpg, PC, 0
-237,Fallout New Vegas, 5.69,https://static-it.gamestop.it/images/products/149029/3max.jpg, PC, 0
-236,Far Cry 6 - Ultimate Edition, 29.97,https://static-it.gamestop.it/images/products/299537/3max.jpg, XBOX, 0
-237,Far Cry 6 - Yara Edition, 24.97,https://static-it.gamestop.it/images/products/299533/3max.jpg, XBOX, 0
-238,Far Cry 6 - Yara Edition, 24.97,https://static-it.gamestop.it/images/products/299527/3max.jpg, PS4, 0
-239,Far Cry 6, 24.97,https://static-it.gamestop.it/images/products/305781/3max.jpg, XBOX, 0
-240,Far Cry 6 - Gold Edition, 29.97,https://static-it.gamestop.it/images/products/299535/3max.jpg, XBOX, 0
-241,Far Cry 6 - Ultimate Edition, 29.97,https://static-it.gamestop.it/images/products/299531/3max.jpg, PS4, 0
-244,Far Cry 6 - Gold Edition, 29.97,https://static-it.gamestop.it/images/products/299529/3max.jpg, PS4, 0
-245,Far Cry 6, 24.97,https://static-it.gamestop.it/images/products/306583/3max.jpg, Ps4, 0
-246,Far Cry 6 - Ultimate Edition, 29.97,https://static-it.gamestop.it/images/products/299977/3max.jpg, PS5, 0
-247,Far Cry 6 - Gold Edition, 29.97,https://static-it.gamestop.it/images/products/299982/3max.jpg, PS5, 0
-248,Far Cry 6 - Yara Edition, 24.97,https://static-it.gamestop.it/images/products/299974/3max.jpg, PS5, 0
-249,Far Cry: New Dawn, 9.97,https://static-it.gamestop.it/images/products/291898/3max.jpg, PC, 0
-250,Far Cry: New Dawn - Superbloom Edition, 9.98,https://static-it.gamestop.it/images/products/290692/3max.jpg, XBOX, 0
-251,Far Cry: New Dawn - Superbloom Edition, 9.98,https://static-it.gamestop.it/images/products/288114/3max.jpg, PS4, 0
-252,Far Cry: New Dawn, 14.97,https://static-it.gamestop.it/images/products/291917/3max.jpg, XBOX, 0
-253,Far Cry: New Dawn, 9.98,https://static-it.gamestop.it/images/products/291915/3max.jpg, PS4, 0
-254,Far Cry 5 - Gold Edition, 39.98,https://static-it.gamestop.it/images/products/280177/3max.jpg, XBOX, 0
-255,Far Cry 5 - Deluxe Edition, 19.97,https://static-it.gamestop.it/images/products/280168/3max.jpg, XBOX, 0
-256,Far Cry 5 - Deluxe Edition, 9.98,https://static-it.gamestop.it/images/products/280166/3max.jpg, PS4, 0
-257,Far Cry 4 + Far Cry Primal, 9.98,https://static-it.gamestop.it/images/products/273494/3max.jpg, XBOX, 0
-258,Far Cry Primal, 4.98,https://static-it.gamestop.it/images/products/265646/3max.jpg, PC, 0
-259,Far Cry Primal, 9.97,https://static-it.gamestop.it/images/products/265644/3max.jpg, XBOX, 0
-260,Far Cry Primal, 9.98,https://static-it.gamestop.it/images/products/265642/3max.jpg, PS4, 0
-261,Far Cry 3 + Far Cry 4, 9.99,https://static-it.gamestop.it/images/products/263857/3max.jpg, XBOX, 0
-262,Far Cry 4, 4.98,https://static-it.gamestop.it/images/products/257878/3max.jpg, XBOX, 0
-263,Far Cry 4, 9.97,https://static-it.gamestop.it/images/products/257874/3max.jpg, XBOX, 0
-264,Far Cry 4, 9.98,https://static-it.gamestop.it/images/products/257872/3max.jpg, PS4, 0
-265,Far Cry 3, 9.69,https://static-it.gamestop.it/images/products/154754/3max.jpg, XBOX, 0
-266,Far Cry 2, 4.99,https://static-it.gamestop.it/images/products/142220/3max.jpg, XBOX, 0
-267,Far Cry® 3 Blood Dragon Classic Edition, 14.99,https://static-it.gamestop.it/images/products/306711/3max.jpg, XBOX, 0
-268,For Honor, 9.97,https://static-it.gamestop.it/images/products/277412/3max.jpg, PS4, 0
-269,For Honor - Deluxe Edition, 9.97,https://static-it.gamestop.it/images/products/263589/3max.jpg, XBOX, 0
-270,For Honor - Deluxe Edition, 9.97,https://static-it.gamestop.it/images/products/263587/3max.jpg, PS4, 0
-271,For Honor, 9.97,https://static-it.gamestop.it/images/products/277414/3max.jpg, XBOX, 0
-272,For Honor Complete Edition, 99.99,https://static-it.gamestop.it/images/products/292117/3max.jpg, XBOX, 0
-273,FOR HONOR - Standard Edition, 29.99,https://static-it.gamestop.it/images/products/291672/3max.jpg, XBOX, 0
-274,For Honor - Season Pass, 29.99,https://static-it.gamestop.it/images/products/277823/3max.jpg, ABB, 0
-275,Fortnite, 2.98,https://static-it.gamestop.it/images/products/280886/3max.jpg, XBOX, 0
-276,Fortnite, 2.98,https://static-it.gamestop.it/images/products/280884/3max.jpg, PS4, 0
-277,Fortnite, 0.00,https://store-images.s-microsoft.com/image/apps.51005.70702278257994163.b4f7e5cb-12c9-4573-a0a3-d67a76ff36fd.60d4c616-0582-4185-aa4a-0892c641c69b, PC, 0
+222,Fall Guys, 0.00,https://cdn1.epicgames.com/offer/50118b7f954e450f8823df1614b24e80/EGS_FallGuys_Mediatonic_S2_1200x1600-2e38803ef15ce35fbafd7875b46a0cc9, PS5, 0
+223,Fall Guys, 0.00,https://cdn1.epicgames.com/offer/50118b7f954e450f8823df1614b24e80/EGS_FallGuys_Mediatonic_S2_1200x1600-2e38803ef15ce35fbafd7875b46a0cc9, XBOX, 0
+224,Fall Guys, 0.00,https://cdn1.epicgames.com/offer/50118b7f954e450f8823df1614b24e80/EGS_FallGuys_Mediatonic_S2_1200x1600-2e38803ef15ce35fbafd7875b46a0cc9, NINSW, 0
+225,Fallout 76 - Wastelanders, 9.97,https://static-it.gamestop.it/images/products/297912/3max.jpg, XBOX, 0
+226,Fallout 76 - Wastelanders, 9.97,https://static-it.gamestop.it/images/products/297910/3max.jpg, PS4, 0
+227,Fallout 76 - Wastelanders, 9.97,https://static-it.gamestop.it/images/products/297909/3max.jpg, PC, 0
+228,Fallout 76, 9.97,https://static-it.gamestop.it/images/products/288164/3max.jpg, PC, 0
+229,Fallout 76, 9.97,https://static-it.gamestop.it/images/products/288013/3max.jpg, PS4, 0
+230,Fallout 76, 2.98,https://static-it.gamestop.it/images/products/287997/3max.jpg, XBOX, 0
+231,Fallout 4 VR, 9.97,https://static-it.gamestop.it/images/products/280724/3max.jpg, PC, 0
+232,Fallout 4 - Game Of The Year Edition, 9.97,https://static-it.gamestop.it/images/products/282482/3max.jpg, PC, 0
+233,Fallout 4 - Game Of The Year Edition, 19.98,https://static-it.gamestop.it/images/products/282480/3max.jpg, XBOX, 0
+234,Fallout 4 - Game Of The Year Edition, 24.97,https://static-it.gamestop.it/images/products/282478/3max.jpg, PS4, 0
+235,Fallout 4, 9.98,https://static-it.gamestop.it/images/products/263338/3max.jpg, XBOX, 0
+236,Fallout 4, 14.97,https://static-it.gamestop.it/images/products/263336/3max.jpg, PS4, 0
+237,Fallout 4, 9.97,https://static-it.gamestop.it/images/products/263335/3max.jpg, PC, 0
+238,Fallout New Vegas, 5.69,https://static-it.gamestop.it/images/products/149029/3max.jpg, PC, 0
+239,Far Cry 6 - Ultimate Edition, 29.97,https://static-it.gamestop.it/images/products/299537/3max.jpg, XBOX, 0
+240,Far Cry 6 - Yara Edition, 24.97,https://static-it.gamestop.it/images/products/299533/3max.jpg, XBOX, 0
+241,Far Cry 6 - Yara Edition, 24.97,https://static-it.gamestop.it/images/products/299527/3max.jpg, PS4, 0
+242,Far Cry 6, 24.97,https://static-it.gamestop.it/images/products/305781/3max.jpg, XBOX, 0
+243,Far Cry 6 - Gold Edition, 29.97,https://static-it.gamestop.it/images/products/299535/3max.jpg, XBOX, 0
+244,Far Cry 6 - Ultimate Edition, 29.97,https://static-it.gamestop.it/images/products/299531/3max.jpg, PS4, 0
+245,Far Cry 6 - Gold Edition, 29.97,https://static-it.gamestop.it/images/products/299529/3max.jpg, PS4, 0
+246,Far Cry 6, 24.97,https://static-it.gamestop.it/images/products/306583/3max.jpg, Ps4, 0
+247,Far Cry 6 - Ultimate Edition, 29.97,https://static-it.gamestop.it/images/products/299977/3max.jpg, PS5, 0
+248,Far Cry 6 - Gold Edition, 29.97,https://static-it.gamestop.it/images/products/299982/3max.jpg, PS5, 0
+249,Far Cry 6 - Yara Edition, 24.97,https://static-it.gamestop.it/images/products/299974/3max.jpg, PS5, 0
+250,Far Cry: New Dawn, 9.97,https://static-it.gamestop.it/images/products/291898/3max.jpg, PC, 0
+251,Far Cry: New Dawn - Superbloom Edition, 9.98,https://static-it.gamestop.it/images/products/290692/3max.jpg, XBOX, 0
+252,Far Cry: New Dawn - Superbloom Edition, 9.98,https://static-it.gamestop.it/images/products/288114/3max.jpg, PS4, 0
+253,Far Cry: New Dawn, 14.97,https://static-it.gamestop.it/images/products/291917/3max.jpg, XBOX, 0
+254,Far Cry: New Dawn, 9.98,https://static-it.gamestop.it/images/products/291915/3max.jpg, PS4, 0
+255,Far Cry 5 - Gold Edition, 39.98,https://static-it.gamestop.it/images/products/280177/3max.jpg, XBOX, 0
+256,Far Cry 5 - Deluxe Edition, 19.97,https://static-it.gamestop.it/images/products/280168/3max.jpg, XBOX, 0
+257,Far Cry 5 - Deluxe Edition, 9.98,https://static-it.gamestop.it/images/products/280166/3max.jpg, PS4, 0
+258,Far Cry 4 + Far Cry Primal, 9.98,https://static-it.gamestop.it/images/products/273494/3max.jpg, XBOX, 0
+259,Far Cry Primal, 4.98,https://static-it.gamestop.it/images/products/265646/3max.jpg, PC, 0
+260,Far Cry Primal, 9.97,https://static-it.gamestop.it/images/products/265644/3max.jpg, XBOX, 0
+261,Far Cry Primal, 9.98,https://static-it.gamestop.it/images/products/265642/3max.jpg, PS4, 0
+262,Far Cry 3 + Far Cry 4, 9.99,https://static-it.gamestop.it/images/products/263857/3max.jpg, XBOX, 0
+263,Far Cry 4, 4.98,https://static-it.gamestop.it/images/products/257878/3max.jpg, XBOX, 0
+264,Far Cry 4, 9.97,https://static-it.gamestop.it/images/products/257874/3max.jpg, XBOX, 0
+265,Far Cry 4, 9.98,https://static-it.gamestop.it/images/products/257872/3max.jpg, PS4, 0
+266,Far Cry 3, 9.69,https://static-it.gamestop.it/images/products/154754/3max.jpg, XBOX, 0
+267,Far Cry 2, 4.99,https://static-it.gamestop.it/images/products/142220/3max.jpg, XBOX, 0
+268,Far Cry® 3 Blood Dragon Classic Edition, 14.99,https://static-it.gamestop.it/images/products/306711/3max.jpg, XBOX, 0
+269,For Honor, 9.97,https://static-it.gamestop.it/images/products/277412/3max.jpg, PS4, 0
+270,For Honor - Deluxe Edition, 9.97,https://static-it.gamestop.it/images/products/263589/3max.jpg, XBOX, 0
+271,For Honor - Deluxe Edition, 9.97,https://static-it.gamestop.it/images/products/263587/3max.jpg, PS4, 0
+272,For Honor, 9.97,https://static-it.gamestop.it/images/products/277414/3max.jpg, XBOX, 0
+273,For Honor Complete Edition, 99.99,https://static-it.gamestop.it/images/products/292117/3max.jpg, XBOX, 0
+274,FOR HONOR - Standard Edition, 29.99,https://static-it.gamestop.it/images/products/291672/3max.jpg, XBOX, 0
+275,For Honor - Season Pass, 29.99,https://static-it.gamestop.it/images/products/277823/3max.jpg, ABB, 0
+276,Fortnite, 2.98,https://static-it.gamestop.it/images/products/280886/3max.jpg, XBOX, 0
+277,Fortnite, 2.98,https://static-it.gamestop.it/images/products/280884/3max.jpg, PS4, 0
+278,Fortnite, 0.00,https://store-images.s-microsoft.com/image/apps.51005.70702278257994163.b4f7e5cb-12c9-4573-a0a3-d67a76ff36fd.60d4c616-0582-4185-aa4a-0892c641c69b, PC, 0
+279,Forza Horizon 5, 54.98,https://www.gamingdragons.com/images/game_img/forza5.jpg, XBOX, 0
+280,Forza Horizon 4, 54.98,https://static-it.gamestop.it/images/products/287977/3max.jpg, XBOX, 0
+281,Forza Horizon 4 - Ultimate Edition, 59.98,https://static-it.gamestop.it/images/products/287975/3max.jpg, XBOX, 0
+282,Forza Horizon 3, 9.98,https://static-it.gamestop.it/images/products/271838/3max.jpg, XBOX, 0
+283,Forza Horizon 2, 9.99,https://static-it.gamestop.it/images/products/258376/3max.jpg, XBOX, 0
+284,Forza Horizon, 24.69,https://static-it.gamestop.it/images/products/250267/3max.jpg, XBOX, 0
+285,Five Nights at Freddy’s: Security Breach, 34.98,https://static-it.gamestop.it/images/products/305545/3max.jpg, PS5, 0
+286,Five Nights at Freddy’s: Security Breach, 34.98,https://static-it.gamestop.it/images/products/305543/3max.jpg, PS4, 0
+287,Ghost of Tsushima - Director's Cut, 74.98,https://static-it.gamestop.it/images/products/298564/3max.jpg, PS4, 0
+288,Ghost of Tsushima - Director's Cut, 74.98,https://static-it.gamestop.it/images/products/302238/3max.jpg, PS5, 0
+289,Ghost of Tsushima, 44.98,https://static-it.gamestop.it/images/products/294368/3max.jpg, PS4, 0
+290,God of War: Ragnarok, 80.98,https://static-it.gamestop.it/images/products/311553/3max.jpg, PS5, 0
+291,God of War: Ragnarok - Launch Edition, 80.98,https://static-it.gamestop.it/images/products/309576/3max.jpg, PS5, 0
+292,God of War: Ragnarok, 70.98,https://static-it.gamestop.it/images/products/309574/3max.jpg, PS4, 0
+293,God of War III Remastered, 9.98,https://static-it.gamestop.it/images/products/262980/3max.jpg, PS4, 0
+294,Gone Home,12.49,https://cdn1.epicgames.com/epic/offer/EGS_GoneHome_TheFullbrightCompany_S4-510x680-3f3615932db3d3822e5f5da78b2dcd74.jpg, PC, 0
+295,Grand Theft Auto V, 29.98,https://static-it.gamestop.it/images/products/304447/3max.jpg, PS5, 0
+296,Grand Theft Auto V, 29.98,https://static-it.gamestop.it/images/products/299749/3max.jpg, XBOX, 0
+297,Grand Theft Auto: The Trilogy - The Definitive Edition, 59.98,https://static-it.gamestop.it/images/products/306173/3max.jpg, NINSW, 0
+298,Grand Theft Auto: The Trilogy - The Definitive Edition, 25.98,https://static-it.gamestop.it/images/products/306087/3max.jpg, XBOX, 0
+299,Grand Theft Auto: The Trilogy - The Definitive Edition, 25.98,https://static-it.gamestop.it/images/products/306085/3max.jpg, PS4, 0
+300,Grand Theft Auto V,27.98,https://static-it.gamestop.it/images/products/258115/3max.jpg, PS4, 0
+301,Grand Theft Auto - Episodes from Liberty City, 3.69,https://static-it.gamestop.it/images/products/146697/3max.jpg, XBOX, 0
+302,Grand Theft Auto IV, 2.99,https://static-it.gamestop.it/images/products/136507/3max.jpg, XBOX, 0
+303,GTA V - Premium Online Edition, 29.98,https://static-it.gamestop.it/images/products/287405/3max.jpg, PS4, 0
+304,GTA V - Premium Online Edition, 29.98,https://static-it.gamestop.it/images/products/287407/3max.jpg, XBOX, 0
+305,Green Hell, 11.99,https://www.mmoga.de/images/games/_ext/1151813/green-hell_large.png, PC, 0
+306,Hearthstone, 6.10,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp4twfrBDO7lczhfsWoCr7rnExaHCTMkY6WAsB17rfzQsN9kTtHpUR1_221BTF1KpSUqY&usqp=CAU, PC, 0
+307,Hearts of Iron IV, 39.99,https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/AD89ZF/c2252fce82a446db938d470dc0e06614.jpg/f/hearts-of-iron-iv.jpg, PC, 0
+308,The Heavy Rain and Beyond: Two Souls Collection , 34.98,https://static-it.gamestop.it/images/products/267223/3max.jpg, PS4, 0
+309,Heavy Rain, 4.99,https://static-it.gamestop.it/images/products/297428/3max.jpg, PC, 0
+310,Hello Neighbor 2, 40.98,https://static-it.gamestop.it/images/products/311845/3max.jpg, NINSW, 0
+311,Hello Neighbor 2, 40.98,https://static-it.gamestop.it/images/products/311843/3max.jpg, XBOX, 0
+312,Hello Neighbor 2, 40.98,https://static-it.gamestop.it/images/products/311841/3max.jpg, PS5, 0
+313,Hello Neighbor 2, 40.98,https://static-it.gamestop.it/images/products/311839/3max.jpg, PS5, 0
+314,Hello Neighbor, 24.98,https://static-it.gamestop.it/images/products/288726/3max.jpg, NINSW, 0
+315,Hello Neighbor, 19.98,https://static-it.gamestop.it/images/products/288724/3max.jpg, PS4, 0
+316,Hello Neighbor, 27.99,https://static-it.gamestop.it/images/products/285660/3max.jpg, XBOX, 0

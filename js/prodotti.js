@@ -9,6 +9,10 @@ const bloccaTutto = document.getElementById("bloccaTutto")
 const avvertenza = document.getElementById("avvertenza")
 const creaAccountBtn = document.getElementById("creaneUno")
 const lasciaStare = document.getElementById("lasciaStare")
+const menuATendina = document.getElementById("menuATendina")
+const contenutoMenuATendina = document.getElementById("contenutoMenuATendina")
+
+var contenutoMenuATendinaBool = false
 
 var dati
 var carrello
@@ -46,6 +50,16 @@ Papa.parse(linkCSV, {
         inizia()
     }
 });
+
+menuATendina.addEventListener("click", function() {
+    if(contenutoMenuATendinaBool) {
+        contenutoMenuATendina.style.display = "none"
+    } else {
+        contenutoMenuATendina.style.display = "block"
+    }
+
+    contenutoMenuATendinaBool = !contenutoMenuATendinaBool
+})
 
 function inizia() {
     if(parametri != "") {
@@ -136,12 +150,12 @@ function start() {
 
 function ricercaPrecisa(numero) {
     menuSecondario.innerHTML = `
-        <div class="scelta" style="width:12%; height: 5vh; font-size: 1vh; margin-left: 2.5%"><h1 class="sceltaText">PLAYSTATION 4</h1></div>
-        <div class="scelta" style="width:12%; height: 5vh; font-size: 1vh; margin-left: 2.5%"><h1 class="sceltaText">PLAYSTATION 5</h1></div>
-        <div class="scelta" style="width:12%; height: 5vh; font-size: 1vh; margin-left: 2.5%"><h1 class="sceltaText">NINTENDO SWITCH</h1></div>
-        <div class="scelta" style="width:12%; height: 5vh; font-size: 1vh; margin-left: 2.5%"><h1 class="sceltaText">XBOX</h1></div>
-        <div class="scelta" style="width:12%; height: 5vh; font-size: 1vh; margin-left: 2.5%"><h1 class="sceltaText">PC</h1></div>
-        <div class="scelta" style="width:12%; height: 5vh; font-size: 1vh; margin-left: 2.5%"><h1 class="sceltaText">ABBONAMENTI</h1></div><br>
+        <div id="sceltaSec" class="scelta"><h1 class="sceltaText">PLAYSTATION 4</h1></div>
+        <div id="sceltaSec" class="scelta"><h1 class="sceltaText">PLAYSTATION 5</h1></div>
+        <div id="sceltaSec" class="scelta"><h1 class="sceltaText">NINTENDO SWITCH</h1></div>
+        <div id="sceltaSec" class="scelta"><h1 class="sceltaText">XBOX</h1></div>
+        <div id="sceltaSec" class="scelta"><h1 class="sceltaText">PC</h1></div>
+        <div id="sceltaSec" class="scelta"><h1 class="sceltaText">ABBONAMENTI</h1></div><br>
     `
 
     scelta = document.getElementsByClassName("scelta")
@@ -200,12 +214,12 @@ function inserisciProdotti() {
     var conProdotti = false
 
     menuSecondario.innerHTML = `
-        <div class="scelta" style="width:12%; height: 5vh; font-size: 1vh; margin-left: 2.5%"><h1 class="sceltaText">PLAYSTATION 4</h1></div>
-        <div class="scelta" style="width:12%; height: 5vh; font-size: 1vh; margin-left: 2.5%"><h1 class="sceltaText">PLAYSTATION 5</h1></div>
-        <div class="scelta" style="width:12%; height: 5vh; font-size: 1vh; margin-left: 2.5%"><h1 class="sceltaText">NINTENDO SWITCH</h1></div>
-        <div class="scelta" style="width:12%; height: 5vh; font-size: 1vh; margin-left: 2.5%"><h1 class="sceltaText">XBOX</h1></div>
-        <div class="scelta" style="width:12%; height: 5vh; font-size: 1vh; margin-left: 2.5%"><h1 class="sceltaText">PC</h1></div>
-        <div class="scelta" style="width:12%; height: 5vh; font-size: 1vh; margin-left: 2.5%"><h1 class="sceltaText">ABBONAMENTI</h1></div><br>
+        <div id="sceltaSec" class="scelta"><h1 class="sceltaText">PLAYSTATION 4</h1></div>
+        <div id="sceltaSec" class="scelta"><h1 class="sceltaText">PLAYSTATION 5</h1></div>
+        <div id="sceltaSec" class="scelta"><h1 class="sceltaText">NINTENDO SWITCH</h1></div>
+        <div id="sceltaSec" class="scelta"><h1 class="sceltaText">XBOX</h1></div>
+        <div id="sceltaSec" class="scelta"><h1 class="sceltaText">PC</h1></div>
+        <div id="sceltaSec" class="scelta"><h1 class="sceltaText">ABBONAMENTI</h1></div><br>
     `
 
     scelta = document.getElementsByClassName("scelta")

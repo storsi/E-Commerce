@@ -18,6 +18,10 @@ const tuttiIDati = document.getElementById("tuttiIDati")
 const saluto = document.getElementById("saluto")
 const infoPersonali = document.getElementById("infoPersonali")
 const infoPagamento = document.getElementById("infoPagamento")
+const menuATendina = document.getElementById("menuATendina")
+const contenutoMenuATendina = document.getElementById("contenutoMenuATendina")
+
+var contenutoMenuATendinaBool = false
 
 var accounts
 var account
@@ -39,6 +43,16 @@ if(accountSelezionato != -1) {
     else   
         sessionStorage.setItem("accountSelezionato", "-1")
 }
+
+menuATendina.addEventListener("click", function() {
+    if(contenutoMenuATendinaBool) {
+        contenutoMenuATendina.style.display = "none"
+    } else {
+        contenutoMenuATendina.style.display = "block"
+    }
+
+    contenutoMenuATendinaBool = !contenutoMenuATendinaBool
+})
 
 linkCambio1.addEventListener("click", function() {
     creaAccount.style.display = "none"
@@ -169,6 +183,10 @@ function stampaAccount() {
 }
 
 function modificaInfoPersonali() {
+    console.log("Modifica info personali")
+
+    console.log(accountSelezionato)
+
     infoPersonali.innerHTML = `
         <h2>NOME: <input type="text" id="nuovoNome" placeholder="${accounts[accountSelezionato][1]}"></h2>
         <h2>COGNOME: <input type="text" id="nuovoCognome" placeholder="${accounts[accountSelezionato][2]}"></h2>
@@ -184,6 +202,11 @@ function modificaInfoPersonali() {
 }
 
 function modificaInfoPagamento() {
+    console.log("Modifica info pagamento")
+    console.log(infoPagamento)
+
+    infoPagamento.style.display = "none"
+
     infoPagamento.innerHTML = `
         <h2>NUMERO DI CARTA: <input type="text" id="nuovoNCarta" placeholder="${accounts[accountSelezionato][5]}"></h2>
         <h2>DATA DI SCADENZA: <input type="text" id="nuovaDataScad" placeholder="${accounts[accountSelezionato][6]}"></h2>

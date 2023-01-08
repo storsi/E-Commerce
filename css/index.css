@@ -33,9 +33,7 @@ a {
     text-decoration: none;
 }
 
-/*
-*CSS PER LA PAGINA "HOME"
-*/
+/*CSS PER LA PAGINA "HOME"*/
 
 #titolo {
     display: inline;
@@ -65,6 +63,36 @@ a {
     position: absolute;
     right: 6.5vh;
     cursor: pointer;
+}
+
+#menuATendina {
+    font-size: 3vh;
+    display: none;
+    position: absolute;
+    right: 5%;
+}
+
+#imgMenuATendina {
+    float: right;
+}
+
+#contenutoMenuATendina {
+    display: none;
+}
+
+#menuTendina {
+    display: block;
+    padding: .5%;
+}
+
+#imgCarrelloTendina {
+    width: 4.5vh;
+    padding: .5%;
+}
+
+#imgAccountTendina {
+    width: 4.5vh;
+    padding: .5%
 }
 
 #imgAccount {
@@ -184,6 +212,13 @@ a {
     width: 100%;
     height: auto;
     text-align: center;
+}
+
+#sceltaSec {
+    width:12%; 
+    height: 5vh; 
+    font-size: 1vh; 
+    margin-left: 2.5%;
 }
 
 .scelta {
@@ -454,6 +489,10 @@ a {
     float: left;
 }
 
+#infoPagamento {
+    margin-left: 20%
+}
+
 #infoPersonali > h2 {
     margin-left: 7%;
     padding: 4.5%;
@@ -551,4 +590,1077 @@ a {
     float: right;
     margin-right: 5%;
     border-radius: 20px;
+}
+
+@media screen and (max-width: 1400px) {
+
+    /*CSS PER LA PAGINA PRODOTTI*/
+
+    #prodotto {
+        width: 20%;
+    }
+
+    #sceltaSec {
+        width: 15%;
+        margin-left: 1%;
+    }
+
+    /*CSS PER LA PAGINA ABOUT US*/
+
+    #imgAs {
+        width: 50%;
+    }
+
+    /*CSS PER LA PAGINA ACCOUNT*/
+
+    #infoPersonali, #infoPagamento {
+        width: 40%;
+    }
+
+    #logout {
+        width: 20%;
+    }
+
+    #creaAccount > input, #accediAccount > input {
+        width: 30%;
+    }
+}
+@media screen and (max-width: 1250px) {
+    /*CSS PER LA PAGINA HOME*/
+
+    .giocoInSaldo {
+        width: 30%;
+        height: 51.5vh;
+    }
+
+    .next, .prev {
+        top: 30%;
+    }
+
+    /*CSS PER LA PAGINA PRODOTTI*/
+
+    #contenitoreProdotti > .scelta > .sceltaText {
+        width: 100%;
+        position: absolute;
+        top: 30%;
+        left: 0;
+    }
+
+    #menuSecondario {
+        margin-top: 10%;
+    }
+
+    #prodotto {
+        width: 30%;
+        height: 60vh;
+    }
+
+    #prodotto > h2 {
+        font-size: 3vh;
+    }
+    #prodotto > h3 {
+        font-size: 2vh;
+    }
+
+    #prodotto > button {
+        width: 70%;
+        left: 15%;
+        height: 4vh;
+        font-size: 2vh;
+    }
+
+    #prodottoImg, #prodottoCarrello {
+        height: 35vh;
+    }
+
+    /*CSS PER LA PAGINA ACCOUNT*/
+
+    #titoloAccount {
+        margin-top: 20%;
+        font-size: 4vh;
+    }
+
+    #saluto {
+        margin-top: 10%;
+        font-size: 3vh;
+    }
+}
+@media screen and (max-width: 1100px) {
+    /*CSS PER LA PAGINA HOME*/
+
+    .giocoInSaldo {
+        width: 30%;
+        height: 60vh;
+        margin-bottom: 5%;
+    }
+
+    .sliderContainer {
+        margin-left: 0;
+        width: 50%;
+        height: 70vh;
+        margin-left: 25%;
+    }
+
+    .next, .prev {
+        top: 35%;
+        font-size: 12vh;
+    }
+
+    .immagineSlide {
+        width: 90%;
+        height: 65vh;
+    }
+
+
+    .imgTop3 {
+        height: 60vh;
+    }
+
+    .titoloSezione {
+        margin-top: 15%;
+        font-size: 4vh;
+    }
+
+    /*CSS PER LA PAGINA PRODOTTI*/
+
+    #ricerca {
+        width: 50%;
+        margin-left: 0;
+        height: 5vh;
+        font-size: 2vh;
+    }
+
+    #cerca {
+        width: 10%;
+        height: 6vh;
+        margin-top: 1%;
+        font-size: 2vh;
+    }
+
+    .scelta {
+        width: 40%;
+        margin-left: 4%;
+        text-align: center;
+        position: relative;
+        font-size: 2vh;
+    }
+
+    #contenitoreProdotti {
+        margin-top: 10%;
+    }
+
+
+    #contenitoreProdotti > .scelta > .sceltaText {
+        width: 100%;
+        position: absolute;
+        top: 30%;
+        left: 0;
+    }
+
+    #menuSecondario {
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    #menuSecondario > #sceltaSec > .sceltaText {
+        position: absolute;
+        top: 10%;
+        text-align: center;
+        width: 100%;
+    }
+
+    #prodotto > h2 {
+        font-size: 3vh;
+    }
+    #prodotto > h3 {
+        font-size: 2vh;
+    }
+
+    #prodotto > button {
+        width: 70%;
+        left: 15%;
+        height: 4vh;
+        font-size: 2vh;
+    }
+
+    #prodottoImg, #prodottoCarrello {
+        height: 35vh;
+    }
+
+    /*CSS PER LA PAGINA ABOUT US*/
+
+    #imgAs {
+        width: 70%;
+        height: auto;
+        float: none;
+        margin-left: 15%;
+        position: absolute;
+        top: 60%;
+        left: 0;
+    }
+
+    #benvenuto, #inventario, #esport, #prezzi {
+
+        height: 120vh;
+        margin-top: 10%;
+        font-size: 2.5vh;
+        text-align: center;
+    }
+
+    #esport {
+        margin-top: 40%;
+    }
+    
+    #titoloBen, #titoloInv, #titoloPrz, #titoloEsp {
+        position: absolute;
+        top: 1%;
+        width: 100%;
+        left: 0;
+        font-size: 10vh;
+        text-align: center;
+        color:rgb(117, 175, 255);
+    }
+    
+    #contenutoBen, #contenutoInv, #contenutoPrz, #contenutoEsp {
+        position: absolute;
+        top: 25%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 5vh;
+    }
+
+    /*CSS PER LA PAGINA CARRELLO*/
+
+    #prodottiCarrello {
+        text-align: center;
+    }
+
+    /*CSS PER LA PAGINA ACCOUNT*/
+
+    #infoPersonali {
+        width: 70%;
+        height: 70vh;
+        text-align: center;
+        font-size: 2vh;
+        margin-left: 15%;
+    }
+
+    #infoPagamento {
+        width:70%;
+        height: 70vh;
+        margin-left: 0;
+        margin-top: 10%;
+        text-align: center;
+        margin-bottom: 10%;
+        font-size: 2vh;
+        margin-left: 15%;
+    }
+
+    #logout {
+        display: block;
+        width: 70%;
+        margin-left: 15%;
+        height: 8vh;
+        position: static;
+        font-size: 2vh;
+    }
+
+    #creaAccount > input, #accediAccount > input {
+        width: 50%;
+        height: 5vh;
+        font-size: 2vh;
+    }
+
+    #creaAccount > h3, #accediAccount > h3, #link1, #link2 {
+        font-size: 3vh;
+    }
+    #accediAccount > button, #creaAccount > button {
+        width: 30%;
+        height: 5vh;
+        font-size: 1.5vh;
+    }
+
+    #titoloAccount {
+        margin-top: 10%;
+        font-size: 6vh;
+    }
+
+    #saluto {
+        margin-top: 10%;
+        font-size: 6vh;
+    }
+
+    #infoPagamento > button {
+        width: 70%;
+        left: 15%;
+        height: 5vh;
+        font-size: 2vh;
+    }
+
+    #infoPersonali > button {
+        width: 70%;
+        left: 15%;
+        font-size: 2vh;
+        height: 5vh;
+    }
+}
+@media screen and (max-width: 1000px) {
+    /*CSS PER LA PAGINA HOME*/
+
+    .giocoInSaldo {
+        width: 60%;
+        height: 50vh;
+        margin-bottom: 5%;
+        margin-left: 20%;
+    }
+
+    .sliderContainer {
+        margin-left: 0;
+        width: 100%;
+        height: 46vh;
+    }
+
+    .next, .prev {
+        top: 35%;
+    }
+
+    .immagineSlide {
+        width: 70%;
+        height: 50vh;
+    }
+
+
+    .imgTop3 {
+        height: 50vh;
+    }
+
+    #menuATendina {
+        width: 25%;
+        height: 30vh;
+        margin-top: -8%;
+    }
+
+    .titoloSezione {
+        margin-top: 35%;
+    }
+
+    /*CSS PER LA PAGINA PRODOTTI*/
+
+    #ricerca {
+        width: 80%;
+        margin-left: 10%;
+        height: 5vh;
+        display: block;
+        font-size: 2vh;
+    }
+
+    #cerca {
+        width: 20%;
+        height: 6vh;
+        margin-top: 1%;
+        font-size: 2vh;
+    }
+
+    .scelta {
+        display: block;
+        width: 70%;
+        margin-left: 15%;
+        text-align: center;
+        position: relative;
+        font-size: 2vh;
+    }
+
+    #contenitoreProdotti {
+        margin-top: 10%;
+    }
+
+
+    #contenitoreProdotti > .scelta > .sceltaText {
+        width: 100%;
+        position: absolute;
+        top: 30%;
+        left: 0;
+    }
+
+    #menuSecondario {
+        margin-top: 30%;
+        text-align: center;
+    }
+
+    #menuSecondario > #sceltaSec > .sceltaText {
+        position: absolute;
+        top: 10%;
+        text-align: center;
+        width: 100%;
+    }
+
+    #sceltaSec {
+        width: 100%;
+        height: 6vh;
+    }
+
+    #prodotto {
+        width: 50%;
+        height: 60vh;
+    }
+
+    #prodotto > h2 {
+        font-size: 3vh;
+    }
+    #prodotto > h3 {
+        font-size: 2vh;
+    }
+
+    #prodotto > button {
+        width: 70%;
+        left: 15%;
+        height: 4vh;
+        font-size: 2vh;
+    }
+
+    #prodottoImg, #prodottoCarrello {
+        height: 35vh;
+    }
+
+    /*CSS PER LA PAGINA ABOUT US*/
+
+    #imgAs {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin: 0;
+        position: absolute;
+        top: 60%;
+        left: 0;
+    }
+
+    #benvenuto, #inventario, #esport, #prezzi {
+
+        height: 65vh;
+        margin-top: 30%;
+        font-size: 2.5vh;
+        text-align: center;
+    }
+
+    #esport {
+        margin-top: 40%;
+    }
+    
+    #titoloBen, #titoloInv, #titoloPrz, #titoloEsp {
+        position: absolute;
+        top: 1%;
+        width: 100%;
+        left: 0;
+        text-align: center;
+        color:rgb(117, 175, 255);
+    }
+    
+    #contenutoBen, #contenutoInv, #contenutoPrz, #contenutoEsp {
+        position: absolute;
+        top: 25%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    /*CSS PER LA PAGINA CARRELLO*/
+
+    #prodottiCarrello {
+        margin-top: 30%;
+        text-align: center;
+        margin-bottom: 20%;
+    }
+
+    #senzaProdotti {
+        position: static;
+        padding-top: 25%;
+        font-size: 2vh;
+    }
+
+    #bottoneConferma {
+        height: 7vh;
+        font-size: 2vh;
+    }
+
+    /*CSS PER LA PAGINA ACCOUNT*/
+
+    #infoPersonali {
+        width: 100%;
+        height: 60vh;
+        text-align: center;
+        font-size: 2vh;
+    }
+
+    #infoPagamento {
+        width: 100%;
+        height: 60vh;
+        margin-left: 0;
+        margin-top: 10%;
+        text-align: center;
+        margin-bottom: 10%;
+        font-size: 2vh;
+    }
+
+    #logout {
+        display: block;
+        width: 100%;
+        position: static;
+        font-size: 2vh;
+    }
+
+    #creaAccount > input {
+        width: 70%;
+        height: 5vh;
+        font-size: 2vh;
+    }
+    #creaAccount > button {
+        width: 50%;
+        height: 5vh;
+        font-size: 1.5vh;
+    }
+
+    #creaAccount > h3, #accediAccount > h3, #link1, #link2 {
+        font-size: 2vh;
+    }
+
+    #accediAccount > input {
+        width: 70%;
+        height: 5vh;
+        font-size: 2vh;
+    }
+    #accediAccount > button {
+        width: 50%;
+        height: 5vh;
+        font-size: 1.5vh;
+    }
+
+    #titoloAccount {
+        margin-top: 30%;
+        font-size: 4vh;
+    }
+
+    #saluto {
+        margin-top: 25%;
+        font-size: 3vh;
+    }
+
+    #infoPagamento > button {
+        width: 70%;
+        left: 15%;
+        height: 5vh;
+        font-size: 2vh;
+    }
+
+    #infoPersonali > button {
+        width: 70%;
+        left: 15%;
+        font-size: 2vh;
+        height: 5vh;
+    }
+}
+@media screen and (max-width: 850px) {
+    /*CSS PER LA PAGINA HOME*/
+
+    #menuSin, #icone {
+        display: none;
+    }
+
+    .giocoInSaldo {
+        width: 60%;
+        height: 50vh;
+        margin-bottom: 5%;
+        margin-left: 20%;
+    }
+
+    .sliderContainer {
+        margin-left: 0;
+        width: 100%;
+        height: 46vh;
+    }
+
+    .next, .prev {
+        top: 35%;
+    }
+
+    .immagineSlide {
+        width: 70%;
+        height: 50vh;
+    }
+
+    #imgMenuATendina {
+        font-size: 4vh;
+    }
+
+
+    .imgTop3 {
+        height: 50vh;
+    }
+
+    #menuATendina {
+        display: block;
+        width: 25%;
+        height: 30vh;
+        margin-top: -11%;
+    }
+
+    .titoloSezione {
+        margin-top: 40%;
+    }
+
+    /*CSS PER LA PAGINA PRODOTTI*/
+
+    #ricerca {
+        width: 80%;
+        margin-left: 10%;
+        height: 5vh;
+        display: block;
+        font-size: 2vh;
+    }
+
+    #cerca {
+        width: 20%;
+        height: 6vh;
+        margin-top: 1%;
+    }
+
+    .scelta {
+        display: block;
+        width: 70%;
+        margin-left: 15%;
+        text-align: center;
+        position: relative;
+    }
+
+    #contenitoreProdotti {
+        margin-top: 10%;
+    }
+
+
+    #contenitoreProdotti > .scelta > .sceltaText {
+        width: 100%;
+        position: absolute;
+        top: 40%;
+        left: 0;
+    }
+
+    #menuSecondario {
+        margin-top: 30%;
+        text-align: center;
+    }
+
+    #menuSecondario > #sceltaSec > .sceltaText {
+        position: absolute;
+        top: 10%;
+        text-align: center;
+        width: 100%;
+    }
+
+    #sceltaSec {
+        width: 100%;
+        margin-top: 1%;
+        height: 6vh;
+    }
+
+    #prodotto {
+        width: 50%;
+        height: 60vh;
+    }
+
+    #prodotto > h2 {
+        font-size: 3vh;
+    }
+    #prodotto > h3 {
+        font-size: 2vh;
+    }
+
+    #prodotto > button {
+        width: 70%;
+        left: 15%;
+        height: 4vh;
+        font-size: 2vh;
+    }
+
+    #prodottoImg, #prodottoCarrello {
+        height: 35vh;
+    }
+
+    /*CSS PER LA PAGINA ABOUT US*/
+
+    #imgAs {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin: 0;
+        position: absolute;
+        top: 60%;
+        left: 0;
+    }
+
+    #benvenuto, #inventario, #esport, #prezzi {
+
+        height: 65vh;
+        margin-top: 30%;
+        font-size: 2.5vh;
+        text-align: center;
+    }
+
+    #esport {
+        margin-top: 40%;
+    }
+    
+    #titoloBen, #titoloInv, #titoloPrz, #titoloEsp {
+        position: absolute;
+        top: 1%;
+        width: 100%;
+        left: 0;
+        text-align: center;
+        color:rgb(117, 175, 255);
+    }
+    
+    #contenutoBen, #contenutoInv, #contenutoPrz, #contenutoEsp {
+        position: absolute;
+        top: 25%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    /*CSS PER LA PAGINA CARRELLO*/
+
+    #prodottiCarrello {
+        margin-top: 30%;
+        text-align: center;
+        margin-bottom: 20%;
+    }
+
+    #senzaProdotti {
+        position: static;
+        padding-top: 25%;
+        font-size: 2vh;
+    }
+
+    #bottoneConferma {
+        height: 7vh;
+        font-size: 1.5vh;
+    }
+
+    /*CSS PER LA PAGINA ACCOUNT*/
+
+    #infoPersonali {
+        width: 100%;
+        height: 60vh;
+        text-align: center;
+        font-size: 2vh;
+    }
+
+    #infoPagamento {
+        width: 100%;
+        height: 60vh;
+        margin-left: 0;
+        margin-top: 10%;
+        text-align: center;
+        margin-bottom: 10%;
+        font-size: 2vh;
+    }
+
+    #logout {
+        display: block;
+        width: 100%;
+        position: static;
+        font-size: 2vh;
+    }
+
+    #creaAccount > input {
+        width: 70%;
+        height: 5vh;
+        font-size: 2vh;
+    }
+    #creaAccount > button {
+        width: 50%;
+        height: 5vh;
+        font-size: 1.5vh;
+    }
+
+    #creaAccount > h3, #accediAccount > h3, #link1, #link2 {
+        font-size: 2vh;
+    }
+
+    #accediAccount > input {
+        width: 70%;
+        height: 5vh;
+        font-size: 2vh;
+    }
+    #accediAccount > button {
+        width: 50%;
+        height: 5vh;
+        font-size: 1.5vh;
+    }
+
+    #titoloAccount {
+        margin-top: 30%;
+        font-size: 4vh;
+    }
+
+    #saluto {
+        margin-top: 25%;
+        font-size: 3vh;
+    }
+
+    #infoPagamento > button {
+        width: 70%;
+        left: 15%;
+        font-size: 2vh;
+    }
+
+    #infoPersonali > button {
+        width: 70%;
+        left: 15%;
+        font-size: 2vh;
+    }
+}
+@media screen and (max-width: 550px) {
+    /*CSS PER LA PAGINA HOME*/
+
+    .giocoInSaldo {
+        width: 80%;
+        height: 50vh;
+        margin-bottom: 5%;
+        margin-left: 0;
+    }
+
+    .next, .prev {
+        top: 30%;
+    }
+
+    .immagineSlide {
+        width: 85%;
+        height: 45vh;
+    }
+
+
+    .imgTop3 {
+        height: 50vh;
+    }
+
+    #menuATendina {
+        width: 35%;
+        height: 30vh;
+        margin-top: -15%;
+    }
+
+    .titoloSezione {
+        margin-top: 50%;
+    }
+
+    /*CSS PER LA PAGINA PRODOTTI*/
+
+    #ricerca {
+        width: 100%;
+        height: 5vh;
+        margin-left: 0;
+    }
+
+    #cerca {
+        width: 20%;
+        height: 7vh;
+        margin-top: 1%;
+    }
+
+    .scelta {
+        display: block;
+        width: 90%;
+        text-align: center;
+        position: relative;
+        margin-left: 5%;
+    }
+
+    #contenitoreProdotti {
+        margin-top: 10%;
+    }
+
+
+    .sceltaText {
+        width: 100%;
+        position: absolute;
+        top: 25%;
+        left: 0;
+    }
+
+    #menuSecondario {
+        margin-top: 50%;
+        text-align: center;
+    }
+
+    #sceltaSec {
+        width: 100%;
+        height: 6vh;
+    }
+
+    #prodotto {
+        width: 70%;
+        height: 65vh;
+    }
+
+    #prodottoImg, #prodottoCarrello {
+        height: 35vh;
+    }
+
+    /*CSS PER LA PAGINA ABOUT US*/
+
+    #imgAs {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin: 0;
+        position: absolute;
+        top: 60%;
+        left: 0;
+    }
+
+    #benvenuto > img {
+        top: 50%;
+    }
+
+    #inventario > img {
+        top: 45%;
+    }
+
+    #inventario, #esport, #prezzi {
+        height: 80vh;
+        margin-top: 10%;
+    }
+
+    #benvenuto {
+        height: 90vh;
+        margin-top: 40%;
+    }
+    
+    #titoloBen, #titoloInv, #titoloPrz, #titoloEsp {
+        position: absolute;
+        top: 1%;
+        width: 100%;
+        text-align: center;
+        color:rgb(117, 175, 255);
+    }
+    
+    #contenutoBen, #contenutoInv, #contenutoPrz, #contenutoEsp {
+        position: absolute;
+        top: 18%;
+        width: 100%;
+        text-align: center;
+    }
+
+    /*CSS PER LA PAGINA CARRELLO*/
+
+    #prodottiCarrello {
+        margin-top: 50%;
+        text-align: center;
+        margin-bottom: 20%;
+    }
+
+    #senzaProdotti {
+        position: static;
+        padding-top: 40%;
+    }
+
+    #bottoneConferma {
+        height: 7vh;
+    }
+
+    /*CSS PER LA PAGINA ACCOUNT*/
+
+    #infoPersonali {
+        width: 100%;
+        height: 60vh;
+        text-align: center;
+        font-size: 2vh;
+    }
+
+    #infoPagamento {
+        width: 100%;
+        height: 60vh;
+        margin-left: 0;
+        margin-top: 10%;
+        text-align: center;
+        margin-bottom: 10%;
+        font-size: 2vh;
+    }
+
+    #logout {
+        display: block;
+        width: 100%;
+        position: static;
+    }
+
+    #creaAccount > input {
+        width: 90%;
+        height: 5vh;
+    }
+    #creaAccount > button {
+        width: 70%;
+        height: 5vh;
+    }
+
+    #accediAccount > input {
+        width: 90%;
+        height: 5vh;
+    }
+    #accediAccount > button {
+        width: 70%;
+        height: 5vh;
+    }
+
+    #titoloAccount {
+        margin-top: 50%;
+    }
+
+    #saluto {
+        margin-top: 40%;
+    }
+
+    #infoPagamento > button {
+        width: 70%;
+        left: 15%;
+    }
+
+    #infoPersonali > button {
+        width: 70%;
+        left: 15%;
+    }
+}
+@media screen and (max-width: 400px) {
+    /*CSS PER LA PAGINA HOME*/
+
+    #menuATendina {
+        margin-top: -20%;
+    }
+
+    /*CSS PER LA PAGINA PRODOTTI*/
+
+    #menuSecondario {
+        margin-top: 40%;
+    }
+
+    /*CSS PER LA PAGINA ABOUT US*/
+
+    #benvenuto, #inventario, #esport, #prezzi {
+        margin-top: 30%;
+    }
+
+    /*CSS PER LA PAGINA CARRELLO*/
+
+    #prodottiCarrello {
+        margin-top: 40%;
+    }
+
+    /*CSS PER LA PAGINA ACCOUNT*/
+
+    #titoloAccount {
+        margin-top: 40%;
+    }
+
+    #saluto {
+        margin-top: 30%;
+    }
 }

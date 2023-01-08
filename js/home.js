@@ -11,12 +11,15 @@ const carrello = document.getElementById("imgCarrello")
 
 const divSaldi = document.getElementById("saldi")
 const imgConsiglio = document.getElementsByClassName("slide")
+const menuATendina = document.getElementById("menuATendina")
+const contenutoMenuATendina = document.getElementById("contenutoMenuATendina")
 
 var indiceSlide = 0
 var data
 var giochiInSconto = []
 var scontoAiGiochi = []
 var giochiConsigliati = []
+var contenutoMenuATendinaBool = false
 mostraSlide(indiceSlide)
 
 if(sessionStorage.getItem("accountSelezionato") == null) {
@@ -31,6 +34,16 @@ Papa.parse(linkCSV, {
         estraiGiochiConsigliati()
     }
 });
+
+menuATendina.addEventListener("click", function() {
+    if(contenutoMenuATendinaBool) {
+        contenutoMenuATendina.style.display = "none"
+    } else {
+        contenutoMenuATendina.style.display = "block"
+    }
+
+    contenutoMenuATendinaBool = !contenutoMenuATendinaBool
+})
 
 function estraiSconti() {
 
