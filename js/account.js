@@ -168,24 +168,18 @@ function stampaAccount() {
         <h2>COGNOME: ${accounts[accountSelezionato][2]}</h2>
         <h2>EMAIL: ${accounts[accountSelezionato][3]}</h2>
         <h2>PASSWORD: ${stampaPrivato(accounts[accountSelezionato][4])}</h2>
-        <button onclick="modificaInfoPersonali()">MODIFICA INFORMAZIONI</button>
+        <button onclick='modificaInfoPersonali()'>MODIFICA INFORMAZIONI</button>
     `
 
     infoPagamento.innerHTML = `
         <h2>NUMERO CARTA: ${stampaPrivato(accounts[accountSelezionato][5])}</h2>
         <h2>DATA DI SCADENZA: ${stampaPrivato(accounts[accountSelezionato][6])}</h2>
         <h2>CODICE DI SICUREZZA: ${stampaPrivato(accounts[accountSelezionato][7])}</h2>
-        <button onclick="modificaInfoPagamento()">MODIFICA INFORMAZIONI</button>
+        <button onclick='modificaInfoPagamento()'>MODIFICA INFORMAZIONI</button>
     `
-
-    tuttiIDati.innerHTML += "<button id='logout' onclick='logout()'>LOGOUT</button>" 
-
 }
 
 function modificaInfoPersonali() {
-    console.log("Modifica info personali")
-
-    console.log(accountSelezionato)
 
     infoPersonali.innerHTML = `
         <h2>NOME: <input type="text" id="nuovoNome" placeholder="${accounts[accountSelezionato][1]}"></h2>
@@ -203,9 +197,6 @@ function modificaInfoPersonali() {
 
 function modificaInfoPagamento() {
     console.log("Modifica info pagamento")
-    console.log(infoPagamento)
-
-    infoPagamento.style.display = "none"
 
     infoPagamento.innerHTML = `
         <h2>NUMERO DI CARTA: <input type="text" id="nuovoNCarta" placeholder="${accounts[accountSelezionato][5]}"></h2>
@@ -225,15 +216,28 @@ function modificaIPFatta(tipo) {
         if(nuovoCognome.value != "") accounts[accountSelezionato][2] = nuovoCognome.value
         if(nuovaMail.value != "") accounts[accountSelezionato][3] = nuovaMail.value
         if(nuovaPassword.value != "") accounts[accountSelezionato][4] = nuovaPassword.value
+
+        infoPersonali.innerHTML = `
+            <h2>NOME: ${accounts[accountSelezionato][1]}</h2>
+            <h2>COGNOME: ${accounts[accountSelezionato][2]}</h2>
+            <h2>EMAIL: ${accounts[accountSelezionato][3]}</h2>
+            <h2>PASSWORD: ${stampaPrivato(accounts[accountSelezionato][4])}</h2>
+            <button onclick='modificaInfoPersonali()'>MODIFICA INFORMAZIONI</button>
+        `
     } else {
         if(nuovoNCarta.value != "") accounts[accountSelezionato][5] = nuovoNCarta.value
         if(nuovaDataScad.value != "") accounts[accountSelezionato][6] = nuovaDataScad.value
         if(nuovoCodSicurezza.value != "") accounts[accountSelezionato][7] = nuovoCodSicurezza.value
+
+        infoPagamento.innerHTML = `
+            <h2>NUMERO CARTA: ${stampaPrivato(accounts[accountSelezionato][5])}</h2>
+            <h2>DATA DI SCADENZA: ${stampaPrivato(accounts[accountSelezionato][6])}</h2>
+            <h2>CODICE DI SICUREZZA: ${stampaPrivato(accounts[accountSelezionato][7])}</h2>
+            <button onclick='modificaInfoPagamento()'>MODIFICA INFORMAZIONI</button>
+        `
     }
 
     localStorage.setItem("accounts", JSON.stringify(accounts))
-
-    stampaAccount()
 }
 
 function logout() {

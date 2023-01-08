@@ -1090,6 +1090,7 @@ a {
         height: 60vh;
         text-align: center;
         font-size: 2vh;
+        margin-left: 0;
     }
 
     #infoPagamento {
@@ -1107,6 +1108,7 @@ a {
         width: 100%;
         position: static;
         font-size: 2vh;
+        margin-left: 0;
     }
 
     #creaAccount > input {
